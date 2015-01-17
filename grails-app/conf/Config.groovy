@@ -107,7 +107,12 @@ grails.plugin.springsecurity.controllerAnnotations.staticRules = [
         '/**/js/**':                      ['permitAll'],
         '/**/css/**':                     ['permitAll'],
         '/**/images/**':                  ['permitAll'],
-        '/**/favicon.ico':                ['permitAll']
+        '/**/favicon.ico':                ['permitAll'],
+        '/register/index':                ['permitAll'],
+        '/register/forgotPassword':       ['permitAll'],
+        '/register/register':             ['permitAll'],
+        '/register/verifyRegistration':   ['permitAll'],
+        '/register/resetPassword':        ['permitAll']
 ]
 
 // log4j configuration

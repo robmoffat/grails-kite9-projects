@@ -12,10 +12,11 @@ class BootStrap {
         testUser.save(flush: true)
 
         UserRole.create testUser, adminRole, true
+        UserRole.create testUser, userRole, true
 
         assert User.count() == 1
         assert Role.count() == 2
-        assert UserRole.count() == 1
+        assert UserRole.count() == 2
     }
 
     def destroy = {
