@@ -2,11 +2,20 @@ package grails.kite9.projects
 
 class Publication {
 
-    Diagram diagram
-    String hash
-    Date dateCreated // Predefined names by Grails will be filled automatically
     User author
+    Revision revision
+    String stub
+    String description
+    String url
 
-    static belongsTo = [diagram: Diagram]
+    Date dateCreated // Predefined names by Grails will be filled automatically
+    Date lastUpdated // Predefined names by Grails will be filled automatically
+
+    static belongsTo = [project: Project]
+
+    static constraints = {
+        stub(blank: false, nullable: false, size: 3..30)
+        url(unique: true)
+    }
 
 }

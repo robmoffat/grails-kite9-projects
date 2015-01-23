@@ -76,6 +76,9 @@ grails.project.dependency.resolution = {
         compile ":spring-security-ui:1.0-RC2"
         compile ":mail:1.0.7"
 
+        //compile ":logical-delete:0.1"
+        //compile ":fields:1.4"
+
         // Uncomment these to enable additional asset-pipeline capabilities
         //compile ":sass-asset-pipeline:1.9.0"
         //compile ":less-asset-pipeline:1.10.0"
