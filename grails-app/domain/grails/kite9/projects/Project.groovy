@@ -5,9 +5,6 @@ class Project {
     String title;
     String description;
     String stub
-    User owner
-
-    static belongsTo = [owner: User]
 
     static hasMany = [diagrams: Diagram, members: Member]
 

@@ -1,3 +1,4 @@
+import grails.kite9.projects.Member
 import grails.kite9.projects.Project
 import grails.kite9.projects.Role
 import grails.kite9.projects.User
@@ -15,8 +16,11 @@ class BootStrap {
         UserRole.create testUser, adminRole, true
         UserRole.create testUser, userRole, true
 
-        def testProject = new Project (title: "Test Project", description: "From Bootstrap", stub: "stub123", owner: testUser)
+        def testProject = new Project (title: "Test Project", description: "From Bootstrap", stub: "stub123")
         testProject.save(flush: true)
+
+        def member = new Member(email: "robmoffat@mac.com", project: testProject, projectRoleString: "A")
+        member.save(flush: true)
 
         assert User.count() == 1
         assert Role.count() == 2
