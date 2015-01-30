@@ -1,3 +1,4 @@
+import grails.kite9.projects.Diagram
 import grails.kite9.projects.Member
 import grails.kite9.projects.Project
 import grails.kite9.projects.Role
@@ -21,6 +22,14 @@ class BootStrap {
 
         def member = new Member(email: "robmoffat@mac.com", project: testProject, projectRoleString: "A")
         member.save(flush: true)
+
+        def diagram1 = new Diagram(title: "Test Diagram 1", description: "Created by Bootstrap", project: testProject, latestHash: 'abc352')
+        diagram1.save flush: true
+
+        def diagram2 = new Diagram(title: "Test Diagram 2", description: "Created by Bootstrap", project: testProject, latestHash: 'abc32')
+        diagram2.save flush: true
+
+
 
         assert User.count() == 1
         assert Role.count() == 2

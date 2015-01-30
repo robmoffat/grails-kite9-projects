@@ -3,6 +3,8 @@ package grails.kite9.projects
 
 
 import org.springframework.security.access.annotation.Secured
+
+import static grails.kite9.projects.ProjectRole.ADMIN
 import static org.springframework.http.HttpStatus.*
 import grails.transaction.Transactional
 
@@ -17,7 +19,6 @@ class ProjectController {
 
     def index(Integer max) {
         User currentLoggedInUser = springSecurityService.getCurrentUser();
-        System.out.println("User:" + currentLoggedInUser)
         params.max = Math.min(max ?: 10, 100)
         def c = Project.createCriteria()
         def query = c.list {
@@ -48,7 +49,11 @@ class ProjectController {
             return
         }
 
+
+        User currentLoggedInUser = springSecurityService.getCurrentUser();
+        def creatorMember = new Member(email: currentLoggedInUser.email, project: projectInstance, projectRole: ADMIN)
         projectInstance.save flush:true
+        creatorMember.save flush: true
 
         request.withFormat {
             form multipartForm {
