@@ -76,6 +76,8 @@ grails.project.dependency.resolution = {
         compile ":spring-security-ui:1.0-RC2"
         compile ":mail:1.0.7"
 
+		// navigation/layout
+		compile ":platform-core:1.0.0"
         //compile ":logical-delete:0.1"
         compile ":fields:1.4"
 
