@@ -1,60 +1,57 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
 
-<head>
-<title><g:message code='spring.security.ui.login.title'/></title>
-<meta name='layout' content='register'/>
-</head>
+    <title>Kite9 Login</title>
 
-<body>
+    <!-- Bootstrap core CSS -->
+    <link href="${request.contextPath}/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
 
-<p/>
+    <!-- Custom styles for this template -->
+    <link href="${request.contextPath}/dashboard/signin.css" rel="stylesheet">
 
-<div class="login s2ui_center ui-corner-all" style='text-align:center;'>
-	<div class="login-inner">
-	<form action='${postUrl}' method='POST' id="loginForm" name="loginForm" autocomplete='off'>
-	<div class="sign-in">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
 
-	<h1><g:message code='spring.security.ui.login.signin'/></h1>
+  <body>
 
-	<table>
-		<tr>
-			<td><label for="username"><g:message code='spring.security.ui.login.username'/></label></td>
-			<td><input name="j_username" id="username" size="20" /></td>
-		</tr>
-		<tr>
-			<td><label for="password"><g:message code='spring.security.ui.login.password'/></label></td>
-			<td><input type="password" name="j_password" id="password" size="20" /></td>
-		</tr>
-		<tr>
-			<td colspan='2'>
-				<input type="checkbox" class="checkbox" name="${rememberMeParameter}" id="remember_me" checked="checked" />
-				<label for='remember_me'><g:message code='spring.security.ui.login.rememberme'/></label> |
-				<span class="forgot-link">
-					<g:link controller='register' action='forgotPassword'><g:message code='spring.security.ui.login.forgotPassword'/></g:link>
-				</span>
-			</td>
-		</tr>
-		<tr>
-			<td colspan='2'>
-				<s2ui:linkButton elementId='register' controller='register' messageCode='spring.security.ui.login.register'/>
-				<s2ui:submitButton elementId='loginButton' form='loginForm' messageCode='spring.security.ui.login.login'/>
-			</td>
-		</tr>
-	</table>
+    <div class="container">
 
-	</div>
-	</form>
-	</div>
-</div>
+      <form class="form-signin" action='${postUrl}' method='POST' id="loginForm" name="loginForm" autocomplete='off'>
+        <h2 class="form-signin-heading">Please sign in</h2>
+        <label for="inputEmail" class="sr-only">Email address</label>
+        <input type="email" name="j_username" id="inputEmail" class="form-control" placeholder="User Name" required autofocus>
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" name="j_password" id="inputPassword" class="form-control" placeholder="Password" required>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" name="${rememberMeParameter}" value="remember-me"> Remember me
+          </label>
+        </div>
+        <button elementId='loginButton' form='loginForm' class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+      	<s2ui:linkButton elementId='register' controller='register' messageCode='spring.security.ui.login.register'/>
+	  	<div class="forgot-link">
+			<g:link controller='register' action='forgotPassword'><g:message code='spring.security.ui.login.forgotPassword'/></g:link>
+		</div>
+      </form>
+      
 
-<script>
-$(document).ready(function() {
-	$('#username').focus();
-});
 
-<s2ui:initCheckboxes/>
+    </div> <!-- /container -->
 
-</script>
 
-</body>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+	<script src="${request.contextPath}/dashboard/ie10-viewport-bug-workaround.js"></script>
+  </body>
 </html>
+

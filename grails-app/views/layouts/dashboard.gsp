@@ -13,6 +13,7 @@
 
     <!-- Custom styles for this template -->
     <link href="${request.contextPath}/dashboard/dashboard.css" rel="stylesheet">
+    <link href="${request.contextPath}/dashboard/kite9.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -34,7 +35,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Project name</a>
+            <a class="navbar-brand" href="#"><img src="${request.contextPath}/images/kite9-logo-small-01.png" alt="Kite9 Logo" /></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
