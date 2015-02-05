@@ -111,6 +111,7 @@ grails.plugin.springsecurity.controllerAnnotations.staticRules = [
         '/dashboard/**':                   ['permitAll'],
         '/bootstrap/**':                   ['permitAll'],
         '/register/**':                   ['permitAll'],
+        '/font-awesome-4.2.0/**':		  ['permitAll'],
         '/user/**':                       ['ROLE_ADMIN'],
         '/role/**':                       ['ROLE_ADMIN'],
         '/securityInfo/**':               ['ROLE_ADMIN']

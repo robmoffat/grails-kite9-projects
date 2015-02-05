@@ -39,3 +39,6 @@ body {
   border-top-right-radius: 0;
 }
 
+.s2ui_hidden_button {
+	visibility: hidden;
+}
