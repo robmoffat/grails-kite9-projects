@@ -103,3 +103,14 @@ body {
   display: inline-block;
   border-radius: 50%;
 }
+
+/*
+ * Avatar
+ */
+ 
+img.avatar {
+	margin-right: 10px;
+	border-radius: 3px;
+}  
+
+

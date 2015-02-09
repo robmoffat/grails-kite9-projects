@@ -96,6 +96,7 @@ environments {
 }
 
 // Added by the Spring Security Core plugin:
+grails.plugin.springsecurity.logout.postOnly=false
 grails.plugin.springsecurity.userLookup.userDomainClassName = 'grails.kite9.projects.User'
 grails.plugin.springsecurity.userLookup.authorityJoinClassName = 'grails.kite9.projects.UserRole'
 grails.plugin.springsecurity.authority.className = 'grails.kite9.projects.Role'
@@ -108,8 +109,9 @@ grails.plugin.springsecurity.controllerAnnotations.staticRules = [
         '/**/css/**':                     ['permitAll'],
         '/**/images/**':                  ['permitAll'],
         '/**/favicon.ico':                ['permitAll'],
-        '/dashboard/**':                   ['permitAll'],
-        '/bootstrap/**':                   ['permitAll'],
+        '/dashboard/**':                  ['permitAll'],
+        '/logout/**':					  ['permitAll'],
+        '/bootstrap/**':                  ['permitAll'],
         '/register/**':                   ['permitAll'],
         '/font-awesome-4.2.0/**':		  ['permitAll'],
         '/user/**':                       ['ROLE_ADMIN'],
