@@ -97,6 +97,7 @@ environments {
 
 // Added by the Spring Security Core plugin:
 grails.plugin.springsecurity.logout.postOnly=false
+grails.plugin.springsecurity.successHandler.defaultTargetUrl = '/project/index'
 grails.plugin.springsecurity.userLookup.userDomainClassName = 'grails.kite9.projects.User'
 grails.plugin.springsecurity.userLookup.authorityJoinClassName = 'grails.kite9.projects.UserRole'
 grails.plugin.springsecurity.authority.className = 'grails.kite9.projects.Role'

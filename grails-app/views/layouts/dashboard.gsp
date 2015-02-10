@@ -54,9 +54,6 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
-	        <div class="nav nav-sidebar" role="navigation">
-		    	<nav:primary/>
-		    </div>
 		    <div class="nav nav-sidebar" role="navigation">
 		    	<nav:secondary/>
 			</div>

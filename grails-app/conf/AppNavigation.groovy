@@ -2,17 +2,14 @@ navigation = {
     // Declare the "app" scope, used by default in tags
     app {
      
-        home()
- 
-        about(controller:'content')
-        help(controller:'content')
-         
-        projects {
+        project {
             // "list" action in "books" controller
-            list()
+            index()
             // "create" action in "books" controller
             create()
         }
+        
+        
          
     }
 }
