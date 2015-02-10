@@ -35,18 +35,18 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"><img src="${request.contextPath}/images/kite9-logo-small-01.png" alt="Kite9 Logo" /></a>
+            <a class="navbar-brand" href="http://kite9.com"><img src="${request.contextPath}/images/kite9-logo-small-01.png" alt="Kite9 Logo" /></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Dashboard</a></li>
-                <li><a href="#">Settings</a></li>
+                <li><g:link action='index' controller='project'>My Projects</g:link></li>
+                <li><a href="#">TODO</a></li>
                 <kite9:renderUserDetails />
-                <li><a href="#">Help</a></li>
+                <li><a href="#">TODO</a></li>
             </ul>
-            <form class="navbar-form navbar-right">
+            <!--form class="navbar-form navbar-right">
                 <input type="text" class="form-control" placeholder="Search...">
-            </form>
+            </form-->
         </div>
     </div>
 </nav>
