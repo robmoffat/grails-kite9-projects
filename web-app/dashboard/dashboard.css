@@ -113,4 +113,12 @@ img.avatar {
 	border-radius: 3px;
 }  
 
+/*
+ * Portfolio Pages
+ */
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+
 

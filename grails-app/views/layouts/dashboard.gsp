@@ -10,6 +10,9 @@
 
     <!-- Bootstrap core CSS -->
     <link href="${request.contextPath}/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- for icons -->
+    <link href="${request.contextPath}/font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="${request.contextPath}/dashboard/dashboard.css" rel="stylesheet">

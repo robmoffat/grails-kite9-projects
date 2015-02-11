@@ -4,7 +4,8 @@ class Project {
 
     String title;
     String description;
-    String stub
+    String stub;
+    String imageUrl;
 
     static hasMany = [diagrams: Diagram, members: Member]
 
@@ -12,5 +13,6 @@ class Project {
         title(blank:false, nullable: false, size:3..80)
         description(blank:false, nullable:false,size:3..500)
         stub(blank: false, nullable: false, size: 3..30, unique: true)
+        imageUrl(blank:true, nullable: true)
     }
 }
