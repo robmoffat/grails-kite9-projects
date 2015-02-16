@@ -1,0 +1,222 @@
+<?xml version="1.0"?><diagram xmlns="http://www.kite9.org/schema/adl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="The Diagram" layout="RIGHT">
+ 
+ <context id="id_4" layout="VERTICAL" bordered="true">
+  
+  <glyph id="id_10" stereotype="" label="Jim Jones">
+   
+   <text-lines/>
+   <symbols/>
+  </glyph>
+  <glyph id="id_11" label="Gracie Morgan">
+   
+   <text-lines/>
+   <symbols/>
+  </glyph>
+  <glyph id="id_12" label="Tom Spork">
+   
+   <text-lines/>
+   <symbols/>
+  </glyph>
+  <glyph id="id_13" label="Arthur Solent">
+   
+   <text-lines/>
+   <symbols/>
+  </glyph>
+  <glyph id="id_35" label="Rob Moffat">
+   
+   <text-lines/>
+   <symbols/>
+  </glyph>
+  <label xsi:type="text-line" id="id_5">
+   
+   <text>People</text>
+   <symbols/>
+  </label>
+ </context>
+ <context id="id_8" layout="VERTICAL" bordered="true">
+  
+  <glyph id="id_14" label="Kite9">
+   
+   <text-lines/>
+   <symbols/>
+  </glyph>
+  <glyph id="id_15" label="Moon Shot">
+   
+   <text-lines/>
+   <symbols/>
+  </glyph>
+  <glyph id="id_16" label="Battle Of The Bands">
+   
+   <text-lines/>
+   <symbols/>
+  </glyph>
+  <label xsi:type="text-line" id="id_9">
+   
+   <text>Projects</text>
+   <symbols/>
+  </label>
+ </context>
+ <context id="id_6" layout="VERTICAL" bordered="true">
+  
+  <glyph id="id_17" label="Cat 1">
+   
+   <text-lines/>
+   <symbols/>
+  </glyph>
+  <glyph id="id_18" label="Face Punch">
+   
+   <text-lines/>
+   <symbols/>
+  </glyph>
+  <glyph id="id_19" label="Landscape 1">
+   
+   <text-lines/>
+   <symbols/>
+  </glyph>
+  <glyph id="id_20" label="Landscape 2">
+   
+   <text-lines/>
+   <symbols/>
+  </glyph>
+  <glyph id="id_21" label="Band 1">
+   
+   <text-lines/>
+   <symbols/>
+  </glyph>
+  <glyph id="id_22" label="Band 2">
+   
+   <text-lines/>
+   <symbols/>
+  </glyph>
+  <glyph id="id_23" label="Sweets">
+   
+   <text-lines/>
+   <symbols/>
+  </glyph>
+  <label xsi:type="text-line" id="id_7">
+   
+   <text>Photos</text>
+   <symbols/>
+  </label>
+ </context>
+ <context id="id_2" layout="VERTICAL" bordered="true">
+  
+  <glyph id="id_24" stereotype="" label="RockNoize">
+   
+   <text-lines/>
+   <symbols/>
+  </glyph>
+  <glyph id="id_0" label="FellWalking">
+   
+   <text-lines/>
+   <symbols/>
+  </glyph>
+  <glyph id="id_1" label="Tom's Party">
+   
+   <text-lines/>
+   <symbols/>
+  </glyph>
+  <label xsi:type="text-line" id="id_3">
+   
+   <text>Events</text>
+   <symbols/>
+  </label>
+ </context>
+ 
+<allLinks>
+  <link id="id_37" drawDirection="RIGHT">
+   
+   <from xsi:type="glyph" reference="id_10"/>
+   <to xsi:type="glyph" reference="id_15"/>
+  </link>
+  <link id="id_32">
+   
+   <from xsi:type="glyph" reference="id_11"/>
+   <to xsi:type="glyph" reference="id_15"/>
+  </link>
+  <link id="id_34">
+   
+   <from xsi:type="glyph" reference="id_11"/>
+   <to xsi:type="glyph" reference="id_16"/>
+  </link>
+  <link id="id_44" drawDirection="RIGHT">
+   
+   <from xsi:type="glyph" reference="id_11"/>
+   <to xsi:type="glyph" reference="id_0"/>
+  </link>
+  <link id="id_30" drawDirection="RIGHT">
+   
+   <from xsi:type="glyph" reference="id_12"/>
+   <to xsi:type="glyph" reference="id_18"/>
+  </link>
+  <link id="id_33">
+   
+   <from xsi:type="glyph" reference="id_13"/>
+   <to xsi:type="glyph" reference="id_16"/>
+  </link>
+  <link id="id_39" drawDirection="LEFT">
+   
+   <from xsi:type="glyph" reference="id_23"/>
+   <to xsi:type="glyph" reference="id_13"/>
+  </link>
+  <link id="id_36">
+   
+   <from xsi:type="glyph" reference="id_35"/>
+   <to xsi:type="glyph" reference="id_14"/>
+  </link>
+  <link id="id_43" drawDirection="LEFT">
+   
+   <from xsi:type="glyph" reference="id_0"/>
+   <to xsi:type="glyph" reference="id_35"/>
+  </link>
+  <link id="id_31" drawDirection="RIGHT">
+   
+   <from xsi:type="glyph" reference="id_14"/>
+   <to xsi:type="glyph" reference="id_17"/>
+  </link>
+  <link id="id_38" drawDirection="RIGHT">
+   
+   <from xsi:type="glyph" reference="id_16"/>
+   <to xsi:type="glyph" reference="id_24"/>
+  </link>
+  <link id="id_41" drawDirection="LEFT">
+   
+   <from xsi:type="glyph" reference="id_21"/>
+   <to xsi:type="glyph" reference="id_16"/>
+  </link>
+  <link id="id_42" drawDirection="LEFT">
+   
+   <from xsi:type="glyph" reference="id_22"/>
+   <to xsi:type="glyph" reference="id_16"/>
+  </link>
+  <link id="id_29">
+   
+   <from xsi:type="glyph" reference="id_1"/>
+   <to xsi:type="glyph" reference="id_18"/>
+  </link>
+  <link id="id_28">
+   
+   <from xsi:type="glyph" reference="id_19"/>
+   <to xsi:type="glyph" reference="id_0"/>
+  </link>
+  <link id="id_27">
+   
+   <from xsi:type="glyph" reference="id_20"/>
+   <to xsi:type="glyph" reference="id_0"/>
+  </link>
+  <link id="id_25">
+   
+   <from xsi:type="glyph" reference="id_21"/>
+   <to xsi:type="glyph" reference="id_24"/>
+  </link>
+  <link id="id_26">
+   
+   <from xsi:type="glyph" reference="id_22"/>
+   <to xsi:type="glyph" reference="id_24"/>
+  </link>
+  <link id="id_40">
+   
+   <from xsi:type="glyph" reference="id_23"/>
+   <to xsi:type="glyph" reference="id_1"/>
+  </link>
+ </allLinks></diagram>

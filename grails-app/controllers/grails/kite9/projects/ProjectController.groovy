@@ -12,7 +12,7 @@ import grails.transaction.Transactional
 @Secured(['ROLE_USER'])
 @Transactional(readOnly = true)
 class ProjectController {
- 	static scaffold = true
+
     def springSecurityService
 
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]

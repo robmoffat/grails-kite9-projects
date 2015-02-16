@@ -52,7 +52,17 @@ grails.project.dependency.resolution = {
         // runtime 'org.postgresql:postgresql:9.3-1101-jdbc41'
         test "org.grails:grails-datastore-test-support:1.0.2-grails-2.4"
         runtime 'mysql:mysql-connector-java:5.1.34'
-
+		build "org.kite9.diagram:kite9-visualization:1.0.1-SNAPSHOT"
+		build "org.kite9:kite9-java-tool:1.11-SNAPSHOT"
+		compile "org.springframework:spring-jdbc:3.0.2.RELEASE"
+		compile "org.springframework:spring-webmvc:4.0.7.RELEASE"
+		compile "org.springframework:spring-beans:4.0.7.RELEASE"	
+		compile "commons-dbcp:commons-dbcp:1.4"
+		compile "mysql:mysql-connector-java:5.1.9"
+		compile "javax.mail:mail:1.4"
+		//compile "javax.servlet:servlet-api:2.4"
+		compile "org.apache.xmlgraphics:batik-svggen:1.7"
+		compile "org.apache.xmlgraphics:batik-bridge:1.7"	
     }
 
     plugins {
