@@ -41,8 +41,8 @@ import org.springframework.web.bind.annotation.RequestParam;
  * @author robmoffat
  *
  */
-@Controller
-public class GuiLinkRenderer extends AbstractImageGeneratingController {
+@Controller("gui-link")
+public class GuiLinkController extends AbstractImageGeneratingController {
 
 	private static final int ARROW_LENGTH=208;
 	private static final int ARROW_GAP_X=10;
@@ -91,7 +91,7 @@ public class GuiLinkRenderer extends AbstractImageGeneratingController {
 	/**
 	 * This is used for individual images
 	 */
-	@RequestMapping(value = "/gui-link.png")
+	@RequestMapping(value = "gui.gui-link.png.dispatch")
 	public ResponseEntity<byte[]> generatePNGImage(
 			final @RequestParam(value = "fromTerminator", defaultValue = "NONE", required = false) String fromTerminator,
 			final @RequestParam(value = "toTerminator", defaultValue = "NONE", required = false) String toTerminator,
@@ -129,7 +129,7 @@ public class GuiLinkRenderer extends AbstractImageGeneratingController {
 
 			private void createETag(File existing, HttpHeaders responseHeaders) {
 				long l = existing.lastModified();
-				responseHeaders.setETag("" + l);
+				responseHeaders.setETag("\"" + l+"\"");
 			}
 
 			public void handleException(Throwable t, HttpServletRequest req) {

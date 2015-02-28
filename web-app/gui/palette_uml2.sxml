@@ -1,0 +1,183 @@
+<?xml version="1.0" ?><diagram xmlns="http://www.kite9.org/schema/adl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="auto:12081" layout="DOWN">
+ <renderingInformation xsi:type="diagram-ri" rendered="true">
+  <position x="0.0" y="0.0"></position>
+  <size x="336.0" y="294.0"></size>
+ </renderingInformation>
+ <hints py1="0.001499" py2="0.998501" px2="0.998002" px1="0.001998"></hints>
+ <context id="auto:4314" style="stroke: white; stroke-dasharray: none" layout="RIGHT" bordered="true">
+  <renderingInformation xsi:type="rectangle" rendered="true">
+   <path>M0.5 6.5 L0.5 185.5 C0.5 188.8137 3.1863 191.5 6.5 191.5 L305.5 191.5 C308.8137 191.5 311.5 188.8137 311.5 185.5 L311.5 6.5 C311.5 3.1863 308.8137 0.5 305.5 0.5 L6.5 0.5 C3.1863 0.5 0.5 3.1863 0.5 6.5 Z</path>
+   <position x="12.0" y="12.0"></position>
+   <size x="312.0" y="192.0"></size>
+  </renderingInformation>
+  <hints py1="0.001499" py2="0.499501" px2="0.998002" px1="0.001998" y1="12.0" y2="204.0" x2="324.0" x1="12.0"></hints>
+  <context id="auto:341" style="stroke: white; stroke-dasharray: none" layout="DOWN" bordered="true">
+   <renderingInformation xsi:type="rectangle" rendered="true">
+    <path>M0.5 6.5 L0.5 161.5 C0.5 164.8137 3.1863 167.5 6.5 167.5 L125.5 167.5 C128.8137 167.5 131.5 164.8137 131.5 161.5 L131.5 6.5 C131.5 3.1863 128.8137 0.5 125.5 0.5 L6.5 0.5 C3.1863 0.5 0.5 3.1863 0.5 6.5 Z</path>
+    <position x="24.0" y="24.0"></position>
+    <size x="132.0" y="168.0"></size>
+   </renderingInformation>
+   <hints py1="0.001499" py2="0.499501" px2="0.499502" px1="0.002496002" y1="24.0" y2="192.0" x2="156.0" x1="24.0"></hints>
+   <glyph id="palette:id_0" shape="umlACTOR">
+    <renderingInformation xsi:type="rectangle" rendered="true">
+     <path>M30 0.5 C26.6863 0.5 24 3.1863 24 6.5 C24 9.8137 26.6863 12.5 30 12.5 C33.3137 12.5 36 9.8137 36 6.5 C36 3.1863 33.3137 0.5 30 0.5 ZM18 12.5 L18 20.5 L24.4 20.5 L18 36.5 L26 36.5 L30 26.5 L34 36.5 L42 36.5 L35.6 20.5 L42 20.5 L42 12.5 ZM0.5 45.5 L59.5 45.5 L59.5 83.5 L0.5 83.5 L0.5 45.5 Z</path>
+     <position x="60.0" y="36.0"></position>
+     <size xsi:type="costed" x="60.0" y="84.0">
+      <cost>0</cost>
+     </size>
+     <internalPosition x="72.0" y="90.0"></internalPosition>
+     <internalSize x="36.0" y="21.0"></internalSize>
+    </renderingInformation>
+    <hints py1="0.002742114" py2="0.2502519" px2="0.49850887" px1="0.00348912" y1="36.0" y2="120.0" x2="120.0" x1="60.0"></hints>
+    <stereotype></stereotype>
+    <label>Actor</label>
+    <text-lines></text-lines>
+    <symbols></symbols>
+   </glyph>
+   <glyph id="palette:id_1" shape="umlUSECASE">
+    <renderingInformation xsi:type="rectangle" rendered="true">
+     <path>M107.5 24 C107.5 36.9787 83.5472 47.5 54 47.5 C24.4528 47.5 0.5 36.9787 0.5 24 C0.5 11.0213 24.4528 0.5 54 0.5 C83.5472 0.5 107.5 11.0213 107.5 24 Z</path>
+     <position x="36.0" y="132.0"></position>
+     <size xsi:type="costed" x="108.0" y="48.0">
+      <cost>0</cost>
+     </size>
+     <internalPosition x="59.00000000000001" y="145.5"></internalPosition>
+     <internalSize x="61.99999999999999" y="21.0"></internalSize>
+    </renderingInformation>
+    <hints py1="0.2507481" py2="0.49825788" px2="0.49850887" px1="0.00348912" y1="132.0" y2="180.0" x2="144.0" x1="36.0"></hints>
+    <stereotype></stereotype>
+    <label>Use Case</label>
+    <text-lines></text-lines>
+    <symbols></symbols>
+   </glyph>
+  </context>
+  <context id="auto:1561" style="stroke: white; stroke-dasharray: none" layout="DOWN" bordered="true">
+   <renderingInformation xsi:type="rectangle" rendered="true">
+    <path>M0.5 6.5 L0.5 161.5 C0.5 164.8137 3.1863 167.5 6.5 167.5 L137.5 167.5 C140.8137 167.5 143.5 164.8137 143.5 161.5 L143.5 6.5 C143.5 3.1863 140.8137 0.5 137.5 0.5 L6.5 0.5 C3.1863 0.5 0.5 3.1863 0.5 6.5 Z</path>
+    <position x="168.0" y="24.0"></position>
+    <size x="144.0" y="168.0"></size>
+   </renderingInformation>
+   <hints py1="0.001499" py2="0.499501" px2="0.997504" px1="0.500498" y1="24.0" y2="192.0" x2="312.0" x1="168.0"></hints>
+   <glyph id="palette:id_6" shape="umlCOMPONENT">
+    <renderingInformation xsi:type="rectangle" rendered="true">
+     <path>M9.25 0.5 L9.25 6.3333 L18 6.3333 L18 12.1667 L9.25 12.1667 L9.25 18 L18 18 L18 23.8333 L9.25 23.8333 L9.25 35.5 L119.5 35.5 L119.5 0.5 ZM0.5 6.3333 L18 6.3333 L18 12.1667 L0.5 12.1667 L0.5 6.3333 ZM0.5 18 L18 18 L18 23.8333 L0.5 23.8333 L0.5 18 Z</path>
+     <position x="180.0" y="36.0"></position>
+     <size xsi:type="costed" x="120.0" y="36.0">
+      <cost>0</cost>
+     </size>
+     <internalPosition x="210.0" y="43.5"></internalPosition>
+     <internalSize x="80.0" y="21.0"></internalSize>
+    </renderingInformation>
+    <hints py1="0.002742114" py2="0.2502519" px2="0.99651086" px1="0.5014911" y1="36.0" y2="72.0" x2="300.0" x1="180.0"></hints>
+    <stereotype></stereotype>
+    <label>Component</label>
+    <text-lines></text-lines>
+    <symbols></symbols>
+   </glyph>
+   <context id="palette:id_8" shape="umlCONTAINER" bordered="true">
+    <renderingInformation xsi:type="rectangle" rendered="true">
+     <path>M0.5 10.5 L10.5 0.5 L119.5 0.5 L109.5 10.5 ZM119.5 0.5 L119.5 85.5 L109.5 95.5 L109.5 10.5 ZM0.5 10.5 L109.5 10.5 L109.5 95.5 L0.5 95.5 L0.5 10.5 Z</path>
+     <position x="180.0" y="84.0"></position>
+     <size x="120.0" y="96.0"></size>
+     <internalPosition x="201.5" y="124.5"></internalPosition>
+     <internalSize x="67.0" y="25.0"></internalSize>
+    </renderingInformation>
+    <hints py1="0.250748" py2="0.498258" px2="0.997504" px1="0.500498" y1="84.0" y2="180.0" x2="300.0" x1="180.0"></hints>
+    <label xsi:type="text-line" id="pid_9">
+     <renderingInformation xsi:type="rectangle" rendered="true">
+      <path>M0 4 L0 17 C0 19.2091 1.7909 21 4 21 L53 21 C55.2091 21 57 19.2091 57 17 L57 4 C57 1.7909 55.2091 0 53 0 L4 0 C1.7909 0 0 1.7909 0 4 Z</path>
+      <position x="201.5" y="155.0"></position>
+      <size x="67.0" y="25.0"></size>
+      <internalPosition x="208.5" y="159.0"></internalPosition>
+      <internalSize x="53.0" y="17.0"></internalSize>
+      <verticalJustification>DOWN</verticalJustification>
+     </renderingInformation>
+     <hints y1="157.0" y2="178.0" x2="263.5" x1="206.5"></hints>
+     <text>Container</text>
+     <symbols></symbols>
+    </label>
+   </context>
+  </context>
+ </context>
+ <context id="auto:4765" style="stroke: white; stroke-dasharray: none" layout="RIGHT" bordered="true">
+  <renderingInformation xsi:type="rectangle" rendered="true">
+   <path>M0.5 6.5 L0.5 59.5 C0.5 62.8137 3.1863 65.5 6.5 65.5 L305.5 65.5 C308.8137 65.5 311.5 62.8137 311.5 59.5 L311.5 6.5 C311.5 3.1863 308.8137 0.5 305.5 0.5 L6.5 0.5 C3.1863 0.5 0.5 3.1863 0.5 6.5 Z</path>
+   <position x="12.0" y="216.0"></position>
+   <size x="312.0" y="66.0"></size>
+  </renderingInformation>
+  <hints py1="0.500499" py2="0.998501" px2="0.998002" px1="0.001998" y1="216.0" y2="282.0" x2="324.0" x1="12.0"></hints>
+  <context id="palette:id_4" layout="RIGHT" bordered="true">
+   <renderingInformation xsi:type="rectangle" rendered="true">
+    <path>M0.5 6.5 L0.5 35.5 C0.5 38.8137 3.1863 41.5 6.5 41.5 L71.5 41.5 C74.8137 41.5 77.5 38.8137 77.5 35.5 L77.5 6.5 C77.5 3.1863 74.8137 0.5 71.5 0.5 L6.5 0.5 C3.1863 0.5 0.5 3.1863 0.5 6.5 Z</path>
+    <position x="24.0" y="228.0"></position>
+    <size x="78.0" y="42.0"></size>
+    <internalPosition x="26.5" y="228.0"></internalPosition>
+    <internalSize x="73.0" y="42.0"></internalSize>
+   </renderingInformation>
+   <hints py1="0.500499" py2="0.998501" px2="0.2507505" px1="0.002744505" y1="228.0" y2="270.0" x2="102.0" x1="24.0"></hints>
+   <label xsi:type="text-line" id="pid_5">
+    <renderingInformation xsi:type="rectangle" rendered="true">
+     <path>M0 4 L0 34 C0 36.2091 1.7909 38 4 38 L59 38 C61.2091 38 63 36.2091 63 34 L63 4 C63 1.7909 61.2091 0 59 0 L4 0 C1.7909 0 0 1.7909 0 4 Z</path>
+     <position x="26.5" y="228.0"></position>
+     <size x="73.0" y="42.0"></size>
+     <internalPosition x="33.5" y="232.0"></internalPosition>
+     <internalSize x="59.0" y="34.0"></internalSize>
+     <verticalJustification>DOWN</verticalJustification>
+    </renderingInformation>
+    <hints y1="230.0" y2="268.0" x2="94.5" x1="31.5"></hints>
+    <text>Horizontal 
+Group</text>
+    <symbols></symbols>
+   </label>
+  </context>
+  <context id="palette:id_2" layout="DOWN" bordered="true">
+   <renderingInformation xsi:type="rectangle" rendered="true">
+    <path>M0.5 6.5 L0.5 35.5 C0.5 38.8137 3.1863 41.5 6.5 41.5 L107.5 41.5 C110.8137 41.5 113.5 38.8137 113.5 35.5 L113.5 6.5 C113.5 3.1863 110.8137 0.5 107.5 0.5 L6.5 0.5 C3.1863 0.5 0.5 3.1863 0.5 6.5 Z</path>
+    <position x="114.0" y="228.0"></position>
+    <size x="114.0" y="42.0"></size>
+    <internalPosition x="144.0" y="228.0"></internalPosition>
+    <internalSize x="54.0" y="42.0"></internalSize>
+   </renderingInformation>
+   <hints py1="0.500499" py2="0.998501" px2="0.49925348" px1="0.2512475" y1="228.0" y2="270.0" x2="228.0" x1="114.0"></hints>
+   <label xsi:type="text-line" id="pid_3">
+    <renderingInformation xsi:type="rectangle" rendered="true">
+     <path>M0 4 L0 34 C0 36.2091 1.7909 38 4 38 L40 38 C42.2091 38 44 36.2091 44 34 L44 4 C44 1.7909 42.2091 0 40 0 L4 0 C1.7909 0 0 1.7909 0 4 Z</path>
+     <position x="144.0" y="228.0"></position>
+     <size x="54.0" y="42.0"></size>
+     <internalPosition x="151.0" y="232.0"></internalPosition>
+     <internalSize x="40.0" y="34.0"></internalSize>
+     <verticalJustification>DOWN</verticalJustification>
+    </renderingInformation>
+    <hints y1="230.0" y2="268.0" x2="193.0" x1="149.0"></hints>
+    <text>Vertical
+Group</text>
+    <symbols></symbols>
+   </label>
+  </context>
+  <context id="palette:id_12" layout="RIGHT" bordered="true">
+   <renderingInformation xsi:type="rectangle" rendered="true">
+    <path>M0.5 6.5 L0.5 35.5 C0.5 38.8137 3.1863 41.5 6.5 41.5 L65.5 41.5 C68.8137 41.5 71.5 38.8137 71.5 35.5 L71.5 6.5 C71.5 3.1863 68.8137 0.5 65.5 0.5 L6.5 0.5 C3.1863 0.5 0.5 3.1863 0.5 6.5 Z</path>
+    <position x="240.0" y="228.0"></position>
+    <size x="72.0" y="42.0"></size>
+    <internalPosition x="240.5" y="228.0"></internalPosition>
+    <internalSize x="71.0" y="42.0"></internalSize>
+   </renderingInformation>
+   <hints py1="0.500499" py2="0.998501" px2="0.997504" px1="0.500498" y1="228.0" y2="270.0" x2="312.0" x1="240.0"></hints>
+   <label xsi:type="text-line" id="pid_13">
+    <renderingInformation xsi:type="rectangle" rendered="true">
+     <path>M0 4 L0 34 C0 36.2091 1.7909 38 4 38 L57 38 C59.2091 38 61 36.2091 61 34 L61 4 C61 1.7909 59.2091 0 57 0 L4 0 C1.7909 0 0 1.7909 0 4 Z</path>
+     <position x="240.5" y="228.0"></position>
+     <size x="71.0" y="42.0"></size>
+     <internalPosition x="247.5" y="232.0"></internalPosition>
+     <internalSize x="57.0" y="34.0"></internalSize>
+     <verticalJustification>DOWN</verticalJustification>
+    </renderingInformation>
+    <hints y1="230.0" y2="268.0" x2="306.5" x1="245.5"></hints>
+    <text>Layoutless
+Group</text>
+    <symbols></symbols>
+   </label>
+  </context>
+ </context>
+ <allLinks></allLinks>
+</diagram>

@@ -1,0 +1,47 @@
+#holder {
+	padding-top: 22px;	
+}
+
+.wide-dialog .contents-list li {
+	width: 536px;
+}
+
+.narrow-dialog .contents-list li {
+	width: 336px;	
+}
+
+.symbols-list {
+	width: 120px;	
+	display: inline-block;
+	vertical-align: top;
+	margin: 0;	
+}
+
+.contents-list li * {
+	float: left;
+}
+
+.symbols-list li {
+	float: left;	
+}
+
+.wide-dialog form {
+	width: 570px;	
+}
+
+.narrow-dialog form {
+	width: 370px;	
+}
+
+.contents-list li .ui-icon {
+	text-indent: 0px;	
+}
+
+.contents-list li input.text {
+	width: 480px;	
+}
+
+#loading1 {
+	vertical-align: top;
+	margin-top: 2px;	
+}

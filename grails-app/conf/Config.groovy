@@ -69,7 +69,7 @@ grails.json.legacy.builder = false
 // enabled native2ascii conversion of i18n properties files
 grails.enable.native2ascii = true
 // packages to include in Spring bean scanning
-grails.spring.bean.packages = []
+grails.spring.bean.packages = ['org.kite9.diagram.server']
 // whether to disable processing of multi part requests
 grails.web.disable.multipart=false
 
@@ -97,28 +97,13 @@ environments {
 
 // Added by the Spring Security Core plugin:
 grails.plugin.springsecurity.logout.postOnly=false
+grails.plugin.springsecurity.rejectIfNoRule = false
+grails.plugin.springsecurity.fii.rejectPublicInvocations = false
+grails.plugin.springsecurity.securityConfigType = "Annotation"
 grails.plugin.springsecurity.successHandler.defaultTargetUrl = '/project/index'
 grails.plugin.springsecurity.userLookup.userDomainClassName = 'grails.kite9.projects.User'
 grails.plugin.springsecurity.userLookup.authorityJoinClassName = 'grails.kite9.projects.UserRole'
 grails.plugin.springsecurity.authority.className = 'grails.kite9.projects.Role'
-grails.plugin.springsecurity.controllerAnnotations.staticRules = [
-        '/':                              ['permitAll'],
-        '/index':                         ['permitAll'],
-        '/index.gsp':                     ['permitAll'],
-        '/assets/**':                     ['permitAll'],
-        '/**/js/**':                      ['permitAll'],
-        '/**/css/**':                     ['permitAll'],
-        '/**/images/**':                  ['permitAll'],
-        '/**/favicon.ico':                ['permitAll'],
-        '/dashboard/**':                  ['permitAll'],
-        '/logout/**':					  ['permitAll'],
-        '/bootstrap/**':                  ['permitAll'],
-        '/register/**':                   ['permitAll'],
-        '/font-awesome-4.2.0/**':		  ['permitAll'],
-        '/user/**':                       ['ROLE_ADMIN'],
-        '/role/**':                       ['ROLE_ADMIN'],
-        '/securityInfo/**':               ['ROLE_ADMIN']
-]
 
 // log4j configuration
 log4j.main = {

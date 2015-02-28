@@ -1,0 +1,204 @@
+<?xml version="1.0" ?><diagram xmlns="http://www.kite9.org/schema/adl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="auto:12081" layout="VERTICAL">
+ <renderingInformation xsi:type="diagram-ri" rendered="true">
+  <position x="0.0" y="0.0"></position>
+  <size x="276.0" y="330.0"></size>
+ </renderingInformation>
+ <hints py1="0.001748001" py2="0.998252" px2="0.998003" px1="0.001997002"></hints>
+ <context id="auto:1395" style="stroke: white; stroke-dasharray: none" layout="DOWN" bordered="true">
+  <renderingInformation xsi:type="rectangle" rendered="true">
+   <path>M0.5 6.5 L0.5 299.5 C0.5 302.8137 3.1863 305.5 6.5 305.5 L245.5 305.5 C248.8137 305.5 251.5 302.8137 251.5 299.5 L251.5 6.5 C251.5 3.1863 248.8137 0.5 245.5 0.5 L6.5 0.5 C3.1863 0.5 0.5 3.1863 0.5 6.5 Z</path>
+   <position x="12.0" y="12.0"></position>
+   <size x="252.0" y="306.0"></size>
+  </renderingInformation>
+  <hints py1="0.001748001" py2="0.998252" px2="0.998003" px1="0.001997002" y1="12.0" y2="318.0" x2="264.0" x1="12.0"></hints>
+  <context id="auto:2796" style="stroke: white; stroke-dasharray: none" layout="RIGHT" bordered="true">
+   <renderingInformation xsi:type="rectangle" rendered="true">
+    <path>M0.5 6.5 L0.5 65.5 C0.5 68.8137 3.1863 71.5 6.5 71.5 L221.5 71.5 C224.8137 71.5 227.5 68.8137 227.5 65.5 L227.5 6.5 C227.5 3.1863 224.8137 0.5 221.5 0.5 L6.5 0.5 C3.1863 0.5 0.5 3.1863 0.5 6.5 Z</path>
+    <position x="24.0" y="24.0"></position>
+    <size x="228.0" y="72.0"></size>
+   </renderingInformation>
+   <hints py1="0.001748001" py2="0.250251" px2="0.998003" px1="0.001997002" y1="24.0" y2="96.0" x2="252.0" x1="24.0"></hints>
+   <glyph id="palette:id_0">
+    <renderingInformation xsi:type="rectangle" rendered="true">
+     <path>M0.5 6.5 L0.5 29.5 C0.5 32.8137 3.1863 35.5 6.5 35.5 L77.5 35.5 C80.8137 35.5 83.5 32.8137 83.5 29.5 L83.5 6.5 C83.5 3.1863 80.8137 0.5 77.5 0.5 L6.5 0.5 C3.1863 0.5 0.5 3.1863 0.5 6.5 Z</path>
+     <position x="48.0" y="42.0"></position>
+     <size xsi:type="costed" x="84.0" y="36.0">
+      <cost>0</cost>
+     </size>
+     <internalPosition x="59.5" y="49.5"></internalPosition>
+     <internalSize x="61.0" y="21.0"></internalSize>
+    </renderingInformation>
+    <hints py1="0.001996604" py2="0.25000238" px2="0.4990029" px1="0.001997102" y1="42.0" y2="78.0" x2="132.0" x1="48.0"></hints>
+    <stereotype></stereotype>
+    <label>New Part</label>
+    <text-lines></text-lines>
+    <symbols></symbols>
+   </glyph>
+   <glyph id="palette:id_2">
+    <renderingInformation xsi:type="rectangle" rendered="true">
+     <path>M0.5 6.5 L0.5 41.5 C0.5 44.8137 3.1863 47.5 6.5 47.5 L77.5 47.5 C80.8137 47.5 83.5 44.8137 83.5 41.5 L83.5 6.5 C83.5 3.1863 80.8137 0.5 77.5 0.5 L6.5 0.5 C3.1863 0.5 0.5 3.1863 0.5 6.5 Z</path>
+     <position x="156.0" y="36.0"></position>
+     <size xsi:type="costed" x="84.0" y="48.0">
+      <cost>0</cost>
+     </size>
+     <internalPosition x="167.5" y="41.5"></internalPosition>
+     <internalSize x="61.0" y="37.0"></internalSize>
+    </renderingInformation>
+    <hints py1="0.001996604" py2="0.25000238" px2="0.9980029" px1="0.5009971" y1="36.0" y2="84.0" x2="240.0" x1="156.0"></hints>
+    <stereotype>Part Type</stereotype>
+    <label>New Part</label>
+    <text-lines></text-lines>
+    <symbols></symbols>
+   </glyph>
+  </context>
+  <context id="auto:2964" style="stroke: white; stroke-dasharray: none" layout="RIGHT" bordered="true">
+   <renderingInformation xsi:type="rectangle" rendered="true">
+    <path>M0.5 6.5 L0.5 83.5 C0.5 86.8137 3.1863 89.5 6.5 89.5 L221.5 89.5 C224.8137 89.5 227.5 86.8137 227.5 83.5 L227.5 6.5 C227.5 3.1863 224.8137 0.5 221.5 0.5 L6.5 0.5 C3.1863 0.5 0.5 3.1863 0.5 6.5 Z</path>
+    <position x="24.0" y="108.0"></position>
+    <size x="228.0" y="90.0"></size>
+   </renderingInformation>
+   <hints py1="0.250749" py2="0.499252" px2="0.998003" px1="0.001997002" y1="108.0" y2="198.0" x2="252.0" x1="24.0"></hints>
+   <arrow id="palette:id_11">
+    <renderingInformation xsi:type="rectangle" rendered="true">
+     <path>M0 4 L0 32 C0 34.2091 1.7909 36 4 36 L104 36 C106.2091 36 108 34.2091 108 32 L108 4 C108 1.7909 106.2091 0 104 0 L4 0 C1.7909 0 0 1.7909 0 4 Z</path>
+     <position x="36.0" y="132.0"></position>
+     <size xsi:type="costed" x="108.0" y="36.0">
+      <cost>0</cost>
+     </size>
+     <internalPosition x="44.0" y="141.5"></internalPosition>
+     <internalSize x="92.0" y="17.0"></internalSize>
+    </renderingInformation>
+    <hints py1="0.2509976" py2="0.4990034" px2="0.4990029" px1="0.001997102" y1="132.0" y2="168.0" x2="144.0" x1="36.0"></hints>
+    <label>Connection Body</label>
+   </arrow>
+   <glyph id="palette:id_4">
+    <renderingInformation xsi:type="rectangle" rendered="true">
+     <path>M0.5 6.5 L0.5 59.5 C0.5 62.8137 3.1863 65.5 6.5 65.5 L77.5 65.5 C80.8137 65.5 83.5 62.8137 83.5 59.5 L83.5 6.5 C83.5 3.1863 80.8137 0.5 77.5 0.5 L6.5 0.5 C3.1863 0.5 0.5 3.1863 0.5 6.5 Z</path>
+     <position x="156.0" y="120.0"></position>
+     <size xsi:type="costed" x="84.0" y="66.0">
+      <cost>0</cost>
+     </size>
+     <internalPosition x="167.5" y="127.0"></internalPosition>
+     <internalSize x="61.0" y="52.0"></internalSize>
+    </renderingInformation>
+    <hints py1="0.2509976" py2="0.4990034" px2="0.9980029" px1="0.5009971" y1="120.0" y2="186.0" x2="240.0" x1="156.0"></hints>
+    <stereotype></stereotype>
+    <label>New Part</label>
+    <text-lines>
+     <comp-shape id="auto:1743" shape="divider">
+      <renderingInformation xsi:type="rectangle" rendered="true">
+       <path>M0.5 6.5 L60.5 6.5</path>
+       <position x="167.5" y="148.0"></position>
+       <size x="61.0" y="13.0"></size>
+       <internalPosition x="198.0" y="154.5"></internalPosition>
+       <internalSize x="0.0" y="0.0"></internalSize>
+      </renderingInformation>
+      <hints y1="148.0" y2="161.0" x2="228.5" x1="167.5"></hints>
+     </comp-shape>
+     <text-line id="auto:1744">
+      <renderingInformation xsi:type="rectangle" rendered="true">
+       <position x="167.5" y="161.0"></position>
+       <size x="61.0" y="18.0"></size>
+       <internalPosition x="168.0" y="161.5"></internalPosition>
+       <internalSize x="60.0" y="17.0"></internalSize>
+      </renderingInformation>
+      <hints y1="161.0" y2="179.0" x2="228.5" x1="167.5"></hints>
+      <text>Details...</text>
+      <symbols></symbols>
+     </text-line>
+    </text-lines>
+    <symbols></symbols>
+   </glyph>
+  </context>
+  <context id="palette:id_8" layout="RIGHT" bordered="true">
+   <renderingInformation xsi:type="rectangle" rendered="true">
+    <path>M0.5 6.5 L0.5 35.5 C0.5 38.8137 3.1863 41.5 6.5 41.5 L221.5 41.5 C224.8137 41.5 227.5 38.8137 227.5 35.5 L227.5 6.5 C227.5 3.1863 224.8137 0.5 221.5 0.5 L6.5 0.5 C3.1863 0.5 0.5 3.1863 0.5 6.5 Z</path>
+    <position x="24.0" y="210.0"></position>
+    <size x="228.0" y="42.0"></size>
+    <internalPosition x="96.5" y="210.0"></internalPosition>
+    <internalSize x="83.0" y="42.0"></internalSize>
+   </renderingInformation>
+   <hints py1="0.500748" py2="0.749251" px2="0.998003" px1="0.001997002" y1="210.0" y2="252.0" x2="252.0" x1="24.0"></hints>
+   <label xsi:type="text-line" id="pid_9">
+    <renderingInformation xsi:type="rectangle" rendered="true">
+     <path>M0 4 L0 34 C0 36.2091 1.7909 38 4 38 L69 38 C71.2091 38 73 36.2091 73 34 L73 4 C73 1.7909 71.2091 0 69 0 L4 0 C1.7909 0 0 1.7909 0 4 Z</path>
+     <position x="96.5" y="210.0"></position>
+     <size x="83.0" y="42.0"></size>
+     <internalPosition x="103.5" y="214.0"></internalPosition>
+     <internalSize x="69.0" y="34.0"></internalSize>
+     <verticalJustification>DOWN</verticalJustification>
+    </renderingInformation>
+    <hints y1="212.0" y2="250.0" x2="174.5" x1="101.5"></hints>
+    <text>Left-To-Right
+Container</text>
+    <symbols></symbols>
+   </label>
+  </context>
+  <context id="palette:id_6" layout="DOWN" bordered="true">
+   <renderingInformation xsi:type="rectangle" rendered="true">
+    <path>M0.5 6.5 L0.5 35.5 C0.5 38.8137 3.1863 41.5 6.5 41.5 L221.5 41.5 C224.8137 41.5 227.5 38.8137 227.5 35.5 L227.5 6.5 C227.5 3.1863 224.8137 0.5 221.5 0.5 L6.5 0.5 C3.1863 0.5 0.5 3.1863 0.5 6.5 Z</path>
+    <position x="24.0" y="264.0"></position>
+    <size x="228.0" y="42.0"></size>
+    <internalPosition x="90.0" y="264.0"></internalPosition>
+    <internalSize x="96.0" y="42.0"></internalSize>
+   </renderingInformation>
+   <hints py1="0.749749" py2="0.998252" px2="0.998003" px1="0.001997002" y1="264.0" y2="306.0" x2="252.0" x1="24.0"></hints>
+   <label xsi:type="text-line" id="pid_7">
+    <renderingInformation xsi:type="rectangle" rendered="true">
+     <path>M0 4 L0 34 C0 36.2091 1.7909 38 4 38 L82 38 C84.2091 38 86 36.2091 86 34 L86 4 C86 1.7909 84.2091 0 82 0 L4 0 C1.7909 0 0 1.7909 0 4 Z</path>
+     <position x="90.0" y="264.0"></position>
+     <size x="96.0" y="42.0"></size>
+     <internalPosition x="97.0" y="268.0"></internalPosition>
+     <internalSize x="82.0" y="34.0"></internalSize>
+     <verticalJustification>DOWN</verticalJustification>
+    </renderingInformation>
+    <hints y1="266.0" y2="304.0" x2="181.0" x1="95.0"></hints>
+    <text>Top-To-Bottom
+Container</text>
+    <symbols></symbols>
+   </label>
+  </context>
+ </context>
+ <allLinks>
+  <link id="pid_0" shape="INVISIBLE" style="stroke: white; stroke-dasharray: none" drawDirection="DOWN">
+   <renderingInformation xsi:type="route" rendered="true">
+    <path>M0 0 L0 54.5</path>
+    <perimeter>M-1.75 -1.75 L-1.75 0 L-1.75 54.5 L-1.75 56.25 L1.75 56.25 L1.75 54.5 L1.75 0 L1.75 -1.75 Z</perimeter>
+    <offset x="90.0" y="77.5"></offset>
+    <fromDecoration>
+     <name>NONE</name>
+     <d>UP</d>
+     <position x="90.0" y="77.5"></position>
+    </fromDecoration>
+    <toDecoration>
+     <name>NONE</name>
+     <d>DOWN</d>
+     <position x="90.0" y="132.0"></position>
+    </toDecoration>
+    <contradicting>false</contradicting>
+   </renderingInformation>
+   <from xsi:type="glyph" reference="palette:id_0"></from>
+   <to xsi:type="arrow" reference="palette:id_11"></to>
+  </link>
+  <link id="pid_1" shape="INVISIBLE" style="stroke: white; stroke-dasharray: none" drawDirection="DOWN">
+   <renderingInformation xsi:type="route" rendered="true">
+    <path>M0 0 L0 37</path>
+    <perimeter>M-1.75 -1.75 L-1.75 0 L-1.75 37 L-1.75 38.75 L1.75 38.75 L1.75 37 L1.75 0 L1.75 -1.75 Z</perimeter>
+    <offset x="198.0" y="83.5"></offset>
+    <fromDecoration>
+     <name>NONE</name>
+     <d>UP</d>
+     <position x="198.0" y="83.5"></position>
+    </fromDecoration>
+    <toDecoration>
+     <name>NONE</name>
+     <d>DOWN</d>
+     <position x="198.0" y="120.5"></position>
+    </toDecoration>
+    <contradicting>false</contradicting>
+   </renderingInformation>
+   <from xsi:type="glyph" reference="palette:id_2"></from>
+   <to xsi:type="glyph" reference="palette:id_4"></to>
+  </link>
+ </allLinks>
+</diagram>

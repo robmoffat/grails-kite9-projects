@@ -17,6 +17,7 @@ import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -68,17 +69,17 @@ import com.thoughtworks.xstream.io.json.JsonWriter;
  * @author robmoffat
  * 
  */
-@Controller
-public class RaphaelStylesheetController extends AbstractKite9Controller {
+@Controller("gui-ss")
+public class GuiStylesheetController extends AbstractKite9Controller {
 
 	XStream xs;
 
-	public RaphaelStylesheetController() {
+	public GuiStylesheetController() {
 		super();
 		this.xs = getConfiguredXStream();
 	}
 	
-	@RequestMapping("/stylesheet.js")
+	@RequestMapping("gui.stylesheet.js.dispatch")
 	public void retrieveStylesheet(@RequestParam(value = "name", required = false) String name,
 			final @RequestParam(value = "jsonp", required = false) String function, final Writer w) throws IOException {
 
@@ -95,13 +96,20 @@ public class RaphaelStylesheetController extends AbstractKite9Controller {
 		w.close();
 	}
 
-	@RequestMapping("/fonts/{file}.ttf")
-	public void retrieveFont(@PathVariable("file") String file, OutputStream os) throws IOException {
+	@RequestMapping("gui.font.dispatch")
+	public void retrieveFont(
+			@RequestParam(value = "name", required=false) String file, 
+			OutputStream os) throws IOException {
+		
+		System.out.println("File: "+file);
+		if (file==null) {
+		}
+		
 		InputStream is = AbstractStylesheet.getFontStream(file);
 		RepositoryHelp.streamCopy(is, os, true);
 	}
 
-	@RequestMapping("/stylesheet.css")
+	@RequestMapping("gui.stylesheet.css.dispatch")
 	public void retrieveStylesheet(@RequestParam(value = "name", required = false) String name,
 			final HttpServletResponse sr) throws IOException {
 		Stylesheet ss = getStylesheet(name);

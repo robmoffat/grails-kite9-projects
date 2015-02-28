@@ -1,0 +1,515 @@
+<?xml version="1.0" ?><diagram xmlns="http://www.kite9.org/schema/adl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="" layout="DOWN">
+ <renderingInformation xsi:type="diagram-ri" rendered="true">
+  <position x="0.0" y="0.0"></position>
+  <size x="714.0" y="438.0"></size>
+ </renderingInformation>
+ <context id="id_30" bordered="true">
+  <renderingInformation xsi:type="rectangle" rendered="true">
+   <path>M12.5 18.5 L12.5 209.5 C12.5 212.8137 15.1863 215.5 18.5 215.5 L695.5 215.5 C698.8137 215.5 701.5 212.8137 701.5 209.5 L701.5 18.5 C701.5 15.1863 698.8137 12.5 695.5 12.5 L18.5 12.5 C15.1863 12.5 12.5 15.1863 12.5 18.5 Z</path>
+   <position x="12.0" y="12.0"></position>
+   <size x="690.0" y="204.0"></size>
+   <internalPosition x="334.5" y="103.0"></internalPosition>
+   <internalSize x="45.0" y="22.0"></internalSize>
+  </renderingInformation>
+  <context id="id_52" layout="VERTICAL" bordered="false">
+   <renderingInformation xsi:type="rectangle" rendered="true">
+    <path>M344.5 26.5 L344.5 201.5 C344.5 204.8137 347.1863 207.5 350.5 207.5 L687.5 207.5 C690.8137 207.5 693.5 204.8137 693.5 201.5 L693.5 26.5 C693.5 23.1863 690.8137 20.5 687.5 20.5 L350.5 20.5 C347.1863 20.5 344.5 23.1863 344.5 26.5 Z</path>
+    <position x="342.0" y="18.0"></position>
+    <size x="354.0" y="192.0"></size>
+    <internalPosition x="512.0" y="110.0"></internalPosition>
+    <internalSize x="14.0" y="8.0"></internalSize>
+   </renderingInformation>
+   <glyph id="id_56">
+    <renderingInformation xsi:type="rectangle" rendered="true">
+     <path>M396.5 34.5 L396.5 49.5 C396.5 55.0228 400.9771 59.5 406.5 59.5 L649.5 59.5 C655.0228 59.5 659.5 55.0228 659.5 49.5 L659.5 34.5 C659.5 28.9772 655.0228 24.5 649.5 24.5 L406.5 24.5 C400.9771 24.5 396.5 28.9772 396.5 34.5 Z</path>
+     <position x="396.0" y="24.0"></position>
+     <size xsi:type="costed" x="264.0" y="36.0">
+      <cost>0</cost>
+     </size>
+     <internalPosition x="405.5" y="32.0"></internalPosition>
+     <internalSize x="245.0" y="20.0"></internalSize>
+    </renderingInformation>
+    <stereotype></stereotype>
+    <label>lonely that you're never coming round</label>
+    <text-lines></text-lines>
+    <symbols>
+     <symbol theChar="1" shape="CIRCLE"></symbol>
+    </symbols>
+   </glyph>
+   <glyph id="id_57">
+    <renderingInformation xsi:type="rectangle" rendered="true">
+     <path>M390.5 82.5 L390.5 97.5 C390.5 103.0229 394.9771 107.5 400.5 107.5 L655.5 107.5 C661.0228 107.5 665.5 103.0229 665.5 97.5 L665.5 82.5 C665.5 76.9771 661.0228 72.5 655.5 72.5 L400.5 72.5 C394.9771 72.5 390.5 76.9771 390.5 82.5 Z</path>
+     <position x="390.0" y="72.0"></position>
+     <size xsi:type="costed" x="276.0" y="36.0">
+      <cost>0</cost>
+     </size>
+     <internalPosition x="397.0" y="80.0"></internalPosition>
+     <internalSize x="262.0" y="20.0"></internalSize>
+    </renderingInformation>
+    <stereotype></stereotype>
+    <label>tired of listening to the sound of my tears</label>
+    <text-lines></text-lines>
+    <symbols>
+     <symbol theChar="2" shape="CIRCLE"></symbol>
+    </symbols>
+   </glyph>
+   <glyph id="id_58">
+    <renderingInformation xsi:type="rectangle" rendered="true">
+     <path>M366.5 130.5 L366.5 145.5 C366.5 151.0228 370.9771 155.5 376.5 155.5 L679.5 155.5 C685.0228 155.5 689.5 151.0228 689.5 145.5 L689.5 130.5 C689.5 124.9771 685.0228 120.5 679.5 120.5 L376.5 120.5 C370.9771 120.5 366.5 124.9771 366.5 130.5 Z</path>
+     <position x="366.0" y="120.0"></position>
+     <size xsi:type="costed" x="324.0" y="36.0">
+      <cost>0</cost>
+     </size>
+     <internalPosition x="374.0" y="128.0"></internalPosition>
+     <internalSize x="308.0" y="20.0"></internalSize>
+    </renderingInformation>
+    <stereotype></stereotype>
+    <label>nervous that the best of all the years has gone by</label>
+    <text-lines></text-lines>
+    <symbols>
+     <symbol theChar="3" shape="CIRCLE"></symbol>
+    </symbols>
+   </glyph>
+   <glyph id="id_59">
+    <renderingInformation xsi:type="rectangle" rendered="true">
+     <path>M378.5 178.5 L378.5 193.5 C378.5 199.0228 382.9771 203.5 388.5 203.5 L667.5 203.5 C673.0228 203.5 677.5 199.0228 677.5 193.5 L677.5 178.5 C677.5 172.9772 673.0228 168.5 667.5 168.5 L388.5 168.5 C382.9771 168.5 378.5 172.9772 378.5 178.5 Z</path>
+     <position x="378.0" y="168.0"></position>
+     <size xsi:type="costed" x="300.0" y="36.0">
+      <cost>0</cost>
+     </size>
+     <internalPosition x="388.5" y="176.0"></internalPosition>
+     <internalSize x="279.0" y="20.0"></internalSize>
+    </renderingInformation>
+    <stereotype></stereotype>
+    <label>terrified and then I see the look in your eyes</label>
+    <text-lines></text-lines>
+    <symbols>
+     <symbol theChar="4" shape="CIRCLE"></symbol>
+    </symbols>
+   </glyph>
+   <label xsi:type="text-line" id="auto:34064">
+    <renderingInformation xsi:type="rectangle" rendered="false">
+     <path></path>
+     <position x="-7.0" y="0.0"></position>
+     <size x="14.0" y="0.0"></size>
+     <internalPosition x="0.0" y="0.0"></internalPosition>
+     <internalSize x="0.0" y="0.0"></internalSize>
+    </renderingInformation>
+    <text></text>
+    <symbols></symbols>
+   </label>
+  </context>
+  <glyph id="id_41">
+   <renderingInformation xsi:type="rectangle" rendered="true">
+    <path>M168.5 100.5 L168.5 121.5 C168.5 127.0229 172.9772 131.5 178.5 131.5 L301.5 131.5 C307.0229 131.5 311.5 127.0229 311.5 121.5 L311.5 100.5 C311.5 94.9771 307.0229 90.5 301.5 90.5 L178.5 90.5 C172.9772 90.5 168.5 94.9771 168.5 100.5 Z</path>
+    <position x="168.0" y="90.0"></position>
+    <size xsi:type="costed" x="144.0" y="42.0">
+     <cost>0</cost>
+    </size>
+    <internalPosition x="177.0" y="102.0"></internalPosition>
+    <internalSize x="126.0" y="18.0"></internalSize>
+   </renderingInformation>
+   <stereotype></stereotype>
+   <label>Every now and then I</label>
+   <text-lines></text-lines>
+   <symbols></symbols>
+  </glyph>
+  <glyph id="id_34">
+   <renderingInformation xsi:type="rectangle" rendered="true">
+    <path>M24.5 100.5 L24.5 115.5 C24.5 121.0229 28.9772 125.5 34.5 125.5 L133.5 125.5 C139.0228 125.5 143.5 121.0229 143.5 115.5 L143.5 100.5 C143.5 94.9771 139.0228 90.5 133.5 90.5 L34.5 90.5 C28.9772 90.5 24.5 94.9771 24.5 100.5 Z</path>
+    <position x="24.0" y="90.0"></position>
+    <size xsi:type="costed" x="120.0" y="36.0">
+     <cost>0</cost>
+    </size>
+    <internalPosition x="30.5" y="99.0"></internalPosition>
+    <internalSize x="107.0" y="18.0"></internalSize>
+   </renderingInformation>
+   <stereotype></stereotype>
+   <label>TURN AROUND</label>
+   <text-lines></text-lines>
+   <symbols></symbols>
+  </glyph>
+  <arrow id="id_54">
+   <renderingInformation xsi:type="rectangle" rendered="true">
+    <path>M318 112 L318 152 C318 154.2091 318 156 318 156 L318 156 C318 156 318 154.2091 318 152 L318 112 C318 109.7909 318 108 318 108 L318 108 C318 108 318 109.7909 318 112 Z</path>
+    <position x="318.0" y="108.0"></position>
+    <size xsi:type="costed" x="0.0" y="48.0">
+     <cost>0</cost>
+    </size>
+    <internalPosition x="318.0" y="132.0"></internalPosition>
+    <internalSize x="0.0" y="0.0"></internalSize>
+   </renderingInformation>
+  </arrow>
+  <label xsi:type="text-line" id="id_31">
+   <renderingInformation xsi:type="rectangle" rendered="true">
+    <path>M108.5 200 L108.5 210 C108.5 212.2091 110.2909 214 112.5 214 L139.5 214 C141.7091 214 143.5 212.2091 143.5 210 L143.5 200 C143.5 197.7909 141.7091 196 139.5 196 L112.5 196 C110.2909 196 108.5 197.7909 108.5 200 Z</path>
+    <position x="103.5" y="194.0"></position>
+    <size x="45.0" y="22.0"></size>
+    <internalPosition x="110.5" y="198.0"></internalPosition>
+    <internalSize x="31.0" y="14.0"></internalSize>
+    <verticalJustification>DOWN</verticalJustification>
+   </renderingInformation>
+   <text>Croon</text>
+   <symbols></symbols>
+  </label>
+ </context>
+ <arrow id="id_37">
+  <renderingInformation xsi:type="rectangle" rendered="true">
+   <path>M234 222 L234 222 C234 222 235.7909 222 238 222 L242 222 C244.2091 222 246 222 246 222 L246 222 C246 222 244.2091 222 242 222 L238 222 C235.7909 222 234 222 234 222 Z</path>
+   <position x="234.0" y="222.0"></position>
+   <size xsi:type="costed" x="12.0" y="0.0">
+    <cost>0</cost>
+   </size>
+   <internalPosition x="240.0" y="222.0"></internalPosition>
+   <internalSize x="0.0" y="0.0"></internalSize>
+  </renderingInformation>
+ </arrow>
+ <context id="id_32" layout="HORIZONTAL" bordered="true">
+  <renderingInformation xsi:type="rectangle" rendered="true">
+   <path>M12.5 234.5 L12.5 305.5 C12.5 308.8137 15.1863 311.5 18.5 311.5 L695.5 311.5 C698.8137 311.5 701.5 308.8137 701.5 305.5 L701.5 234.5 C701.5 231.1863 698.8137 228.5 695.5 228.5 L18.5 228.5 C15.1863 228.5 12.5 231.1863 12.5 234.5 Z</path>
+   <position x="12.0" y="228.0"></position>
+   <size x="690.0" y="84.0"></size>
+   <internalPosition x="341.0" y="259.0"></internalPosition>
+   <internalSize x="32.0" y="22.0"></internalSize>
+  </renderingInformation>
+  <glyph id="id_48">
+   <renderingInformation xsi:type="rectangle" rendered="true">
+    <path>M46.5 262.5 L46.5 277.5 C46.5 283.0229 50.9772 287.5 56.5 287.5 L131.5 287.5 C137.0228 287.5 141.5 283.0229 141.5 277.5 L141.5 262.5 C141.5 256.9771 137.0228 252.5 131.5 252.5 L56.5 252.5 C50.9772 252.5 46.5 256.9771 46.5 262.5 Z</path>
+    <position x="46.0" y="252.0"></position>
+    <size xsi:type="costed" x="96.0" y="36.0">
+     <cost>0</cost>
+    </size>
+    <internalPosition x="53.0" y="261.0"></internalPosition>
+    <internalSize x="82.0" y="18.0"></internalSize>
+   </renderingInformation>
+   <stereotype></stereotype>
+   <label>Now, Tonight</label>
+   <text-lines></text-lines>
+   <symbols></symbols>
+  </glyph>
+  <glyph id="id_47">
+   <renderingInformation xsi:type="rectangle" rendered="true">
+    <path>M519.5 262.5 L519.5 277.5 C519.5 283.0229 523.9772 287.5 529.5 287.5 L616.5 287.5 C622.0228 287.5 626.5 283.0229 626.5 277.5 L626.5 262.5 C626.5 256.9771 622.0228 252.5 616.5 252.5 L529.5 252.5 C523.9772 252.5 519.5 256.9771 519.5 262.5 Z</path>
+    <position x="519.0" y="252.0"></position>
+    <size xsi:type="costed" x="108.0" y="36.0">
+     <cost>0</cost>
+    </size>
+    <internalPosition x="526.0" y="261.0"></internalPosition>
+    <internalSize x="94.0" y="18.0"></internalSize>
+   </renderingInformation>
+   <stereotype></stereotype>
+   <label>More than ever!</label>
+   <text-lines></text-lines>
+   <symbols></symbols>
+  </glyph>
+  <glyph id="id_46">
+   <renderingInformation xsi:type="rectangle" rendered="true">
+    <path>M174.5 262.5 L174.5 277.5 C174.5 283.0229 178.9772 287.5 184.5 287.5 L295.5 287.5 C301.0229 287.5 305.5 283.0229 305.5 277.5 L305.5 262.5 C305.5 256.9771 301.0229 252.5 295.5 252.5 L184.5 252.5 C178.9772 252.5 174.5 256.9771 174.5 262.5 Z</path>
+    <position x="174.0" y="252.0"></position>
+    <size xsi:type="costed" x="132.0" y="36.0">
+     <cost>0</cost>
+    </size>
+    <internalPosition x="181.5" y="261.0"></internalPosition>
+    <internalSize x="117.0" y="18.0"></internalSize>
+   </renderingInformation>
+   <stereotype></stereotype>
+   <label>AND I NEED YOU</label>
+   <text-lines></text-lines>
+   <symbols></symbols>
+  </glyph>
+  <label xsi:type="text-line" id="id_33">
+   <renderingInformation xsi:type="rectangle" rendered="true">
+    <path>M346 296 L346 306 C346 308.2091 347.7909 310 350 310 L364 310 C366.2091 310 368 308.2091 368 306 L368 296 C368 293.7909 366.2091 292 364 292 L350 292 C347.7909 292 346 293.7909 346 296 Z</path>
+    <position x="341.0" y="290.0"></position>
+    <size x="32.0" y="22.0"></size>
+    <internalPosition x="348.0" y="294.0"></internalPosition>
+    <internalSize x="18.0" y="14.0"></internalSize>
+    <verticalJustification>DOWN</verticalJustification>
+   </renderingInformation>
+   <text>Belt</text>
+   <symbols></symbols>
+  </label>
+ </context>
+ <label xsi:type="key" id="id_65">
+  <renderingInformation xsi:type="rectangle" rendered="true">
+   <path>M24.25 336.25 L689.75 336.25 L689.75 413.75 L24.25 413.75 L24.25 336.25 Z</path>
+   <position x="0.0" y="312.0"></position>
+   <size x="714.0" y="126.0"></size>
+   <internalPosition x="48.25" y="336.25"></internalPosition>
+   <internalSize x="617.5" y="77.5"></internalSize>
+   <verticalJustification>DOWN</verticalJustification>
+  </renderingInformation>
+  <boldText>Total Eclipse of The Heart</boldText>
+  <bodyText>For the better understanding of it... and showing the basic Kite9 diagram components</bodyText>
+  <symbols>
+   <text-line id="auto:41962">
+    <renderingInformation xsi:type="rectangle" rendered="true">
+     <position x="48.25" y="364.25"></position>
+     <size x="617.5" y="14.0"></size>
+     <internalPosition x="48.25" y="364.25"></internalPosition>
+     <internalSize x="617.5" y="14.0"></internalSize>
+    </renderingInformation>
+    <text>Bonnie Tyler</text>
+    <symbols></symbols>
+   </text-line>
+   <text-line id="auto:41963">
+    <renderingInformation xsi:type="rectangle" rendered="true">
+     <position x="48.25" y="378.25"></position>
+     <size x="617.5" y="19.0"></size>
+     <internalPosition x="48.25" y="378.25"></internalPosition>
+     <internalSize x="617.5" y="19.0"></internalSize>
+    </renderingInformation>
+    <text>See also: "I get a little bit helpless and I'm lying like a child in your arms"</text>
+    <symbols>
+     <symbol theChar="1" shape="CIRCLE"></symbol>
+     <symbol theChar="2" shape="CIRCLE"></symbol>
+     <symbol theChar="3" shape="CIRCLE"></symbol>
+     <symbol theChar="4" shape="CIRCLE"></symbol>
+    </symbols>
+   </text-line>
+   <text-line id="auto:41964">
+    <renderingInformation xsi:type="rectangle" rendered="true">
+     <position x="48.25" y="397.25"></position>
+     <size x="617.5" y="14.0"></size>
+     <internalPosition x="48.25" y="397.25"></internalPosition>
+     <internalSize x="617.5" y="14.0"></internalSize>
+    </renderingInformation>
+    <text>With thanks to http://jeannr.tumblr.com/</text>
+    <symbols></symbols>
+   </text-line>
+  </symbols>
+ </label>
+ <allLinks>
+  <link id="id_61">
+   <renderingInformation xsi:type="route" rendered="true">
+    <path>M318 114 L319 114 C321.7614 114 324 111.7614 324 109 L324 47 C324 44.2386 326.2386 42 329 42 L386.5 42</path>
+    <perimeter>M386 37 L386 39.5 L329 39.5 C324.8576 39.5 321.5 42.8576 321.5 47 L321.5 109 C321.5 110.3804 320.3804 111.5 319 111.5 L315.5 111.5 L315.5 116.5 L319 116.5 C323.1424 116.5 326.5 113.1424 326.5 109 L326.5 47 C326.5 45.6196 327.6196 44.5 329 44.5 L386 44.5 L386 47 L396 47 L396 37 Z</perimeter>
+    <fromDecoration>
+     <name>NONE</name>
+     <d>LEFT</d>
+     <position x="318.0" y="114.0"></position>
+    </fromDecoration>
+    <toDecoration>
+     <name>ARROW</name>
+     <d>RIGHT</d>
+     <position x="396.5" y="42.0"></position>
+    </toDecoration>
+    <contradicting>false</contradicting>
+   </renderingInformation>
+   <from xsi:type="arrow" reference="id_54"></from>
+   <to xsi:type="glyph" reference="id_56"></to>
+   <toDecoration>ARROW</toDecoration>
+  </link>
+  <link id="id_62">
+   <renderingInformation xsi:type="route" rendered="true">
+    <path>M318 126 L331 126 C333.7614 126 336 123.7614 336 121 L336 95 C336 92.2386 338.2386 90 341 90 L380.5 90</path>
+    <perimeter>M380 85 L380 87.5 L341 87.5 C336.8576 87.5 333.5 90.8576 333.5 95 L333.5 121 C333.5 122.3804 332.3804 123.5 331 123.5 L315.5 123.5 L315.5 128.5 L331 128.5 C335.1424 128.5 338.5 125.1424 338.5 121 L338.5 95 C338.5 93.6196 339.6196 92.5 341 92.5 L380 92.5 L380 95 L390 95 L390 85 Z</perimeter>
+    <fromDecoration>
+     <name>NONE</name>
+     <d>LEFT</d>
+     <position x="318.0" y="126.0"></position>
+    </fromDecoration>
+    <toDecoration>
+     <name>ARROW</name>
+     <d>RIGHT</d>
+     <position x="390.5" y="90.0"></position>
+    </toDecoration>
+    <contradicting>false</contradicting>
+   </renderingInformation>
+   <from xsi:type="arrow" reference="id_54"></from>
+   <to xsi:type="glyph" reference="id_57"></to>
+   <toDecoration>ARROW</toDecoration>
+  </link>
+  <link id="id_63">
+   <renderingInformation xsi:type="route" rendered="true">
+    <path>M318 138 L356.5 138</path>
+    <perimeter>M356 133 L356 135.5 L315.5 135.5 L315.5 140.5 L356 140.5 L356 143 L366 143 L366 133 Z</perimeter>
+    <fromDecoration>
+     <name>NONE</name>
+     <d>LEFT</d>
+     <position x="318.0" y="138.0"></position>
+    </fromDecoration>
+    <toDecoration>
+     <name>ARROW</name>
+     <d>RIGHT</d>
+     <position x="366.5" y="138.0"></position>
+    </toDecoration>
+    <contradicting>false</contradicting>
+   </renderingInformation>
+   <from xsi:type="arrow" reference="id_54"></from>
+   <to xsi:type="glyph" reference="id_58"></to>
+   <toDecoration>ARROW</toDecoration>
+  </link>
+  <link id="id_64">
+   <renderingInformation xsi:type="route" rendered="true">
+    <path>M318 150 L319 150 C321.7614 150 324 152.2386 324 155 L324 181 C324 183.7614 326.2386 186 329 186 L368.5 186</path>
+    <perimeter>M315.5 147.5 L315.5 152.5 L319 152.5 C320.3804 152.5 321.5 153.6196 321.5 155 L321.5 181 C321.5 185.1424 324.8576 188.5 329 188.5 L368 188.5 L368 191 L378 191 L378 181 L368 181 L368 183.5 L329 183.5 C327.6196 183.5 326.5 182.3804 326.5 181 L326.5 155 C326.5 150.8576 323.1424 147.5 319 147.5 Z</perimeter>
+    <fromDecoration>
+     <name>NONE</name>
+     <d>LEFT</d>
+     <position x="318.0" y="150.0"></position>
+    </fromDecoration>
+    <toDecoration>
+     <name>ARROW</name>
+     <d>RIGHT</d>
+     <position x="378.5" y="186.0"></position>
+    </toDecoration>
+    <contradicting>false</contradicting>
+   </renderingInformation>
+   <from xsi:type="arrow" reference="id_54"></from>
+   <to xsi:type="glyph" reference="id_59"></to>
+   <toDecoration>ARROW</toDecoration>
+  </link>
+  <link id="id_42">
+   <renderingInformation xsi:type="route" rendered="true">
+    <path>M240 131.5 L240 222</path>
+    <perimeter>M237.5 129 L237.5 131.5 L237.5 222 L237.5 224.5 L242.5 224.5 L242.5 222 L242.5 131.5 L242.5 129 Z</perimeter>
+    <fromDecoration>
+     <name>NONE</name>
+     <d>UP</d>
+     <position x="240.0" y="131.5"></position>
+    </fromDecoration>
+    <toDecoration>
+     <name>NONE</name>
+     <d>DOWN</d>
+     <position x="240.0" y="222.0"></position>
+    </toDecoration>
+    <contradicting>false</contradicting>
+   </renderingInformation>
+   <from xsi:type="glyph" reference="id_41"></from>
+   <to xsi:type="arrow" reference="id_37"></to>
+  </link>
+  <link id="id_55" drawDirection="RIGHT">
+   <renderingInformation xsi:type="route" rendered="true">
+    <path>M311.5 114 L318 114</path>
+    <perimeter>M309 111.5 L309 116.5 L320.5 116.5 L320.5 111.5 Z</perimeter>
+    <fromDecoration>
+     <name>NONE</name>
+     <d>LEFT</d>
+     <position x="311.5" y="114.0"></position>
+    </fromDecoration>
+    <toDecoration>
+     <name>NONE</name>
+     <d>RIGHT</d>
+     <position x="318.0" y="114.0"></position>
+    </toDecoration>
+    <contradicting>false</contradicting>
+   </renderingInformation>
+   <from xsi:type="glyph" reference="id_41"></from>
+   <to xsi:type="arrow" reference="id_54"></to>
+  </link>
+  <link id="id_0">
+   <renderingInformation xsi:type="route" rendered="true">
+    <path>M143.5 108 L158.5 108</path>
+    <perimeter>M158 103 L158 105.5 L141 105.5 L141 110.5 L158 110.5 L158 113 L168 113 L168 103 Z</perimeter>
+    <fromDecoration>
+     <name>NONE</name>
+     <d>LEFT</d>
+     <position x="143.5" y="108.0"></position>
+    </fromDecoration>
+    <toDecoration>
+     <name>ARROW</name>
+     <d>RIGHT</d>
+     <position x="168.5" y="108.0"></position>
+    </toDecoration>
+    <contradicting>false</contradicting>
+   </renderingInformation>
+   <from xsi:type="glyph" reference="id_34"></from>
+   <to xsi:type="glyph" reference="id_41"></to>
+   <toDecoration>ARROW</toDecoration>
+  </link>
+  <link id="id_3">
+   <renderingInformation xsi:type="route" rendered="true">
+    <path>M84 90.5 L84 50 C84 47.2386 86.2386 45 89 45 L235 45 C237.7614 45 240 47.2386 240 50 L240 80.5</path>
+    <perimeter>M89 42.5 C84.8576 42.5 81.5 45.8576 81.5 50 L81.5 90.5 L81.5 93 L86.5 93 L86.5 90.5 L86.5 50 C86.5 48.6196 87.6196 47.5 89 47.5 L235 47.5 C236.3804 47.5 237.5 48.6196 237.5 50 L237.5 80 L235 80 L235 90 L245 90 L245 80 L242.5 80 L242.5 50 C242.5 45.8576 239.1424 42.5 235 42.5 Z</perimeter>
+    <fromDecoration>
+     <name>NONE</name>
+     <d>DOWN</d>
+     <position x="84.0" y="90.5"></position>
+    </fromDecoration>
+    <toDecoration>
+     <name>ARROW</name>
+     <d>DOWN</d>
+     <position x="240.0" y="90.5"></position>
+    </toDecoration>
+    <contradicting>false</contradicting>
+   </renderingInformation>
+   <from xsi:type="glyph" reference="id_34"></from>
+   <to xsi:type="glyph" reference="id_41"></to>
+   <toLabel xsi:type="text-line" id="id_4">
+    <renderingInformation xsi:type="rectangle" rendered="true">
+     <path>M242 74 L242 84 C242 86.2091 243.7909 88 246 88 L293 88 C295.2091 88 297 86.2091 297 84 L297 74 C297 71.7909 295.2091 70 293 70 L246 70 C243.7909 70 242 71.7909 242 74 Z</path>
+     <position x="240.0" y="62.0"></position>
+     <size x="67.0" y="28.0"></size>
+     <internalPosition x="244.0" y="72.0"></internalPosition>
+     <internalSize x="51.0" y="14.0"></internalSize>
+     <horizontalJustification>LEFT</horizontalJustification>
+     <verticalJustification>DOWN</verticalJustification>
+    </renderingInformation>
+    <text>bright eyes</text>
+    <symbols></symbols>
+   </toLabel>
+   <toDecoration>ARROW</toDecoration>
+  </link>
+  <link id="id_51">
+   <renderingInformation xsi:type="route" rendered="true">
+    <path>M240 222 L240 242.5</path>
+    <perimeter>M237.5 219.5 L237.5 222 L237.5 242 L235 242 L235 252 L245 252 L245 242 L242.5 242 L242.5 222 L242.5 219.5 Z</perimeter>
+    <fromDecoration>
+     <name>NONE</name>
+     <d>UP</d>
+     <position x="240.0" y="222.0"></position>
+    </fromDecoration>
+    <toDecoration>
+     <name>ARROW</name>
+     <d>DOWN</d>
+     <position x="240.0" y="252.5"></position>
+    </toDecoration>
+    <contradicting>false</contradicting>
+   </renderingInformation>
+   <from xsi:type="arrow" reference="id_37"></from>
+   <to xsi:type="glyph" reference="id_46"></to>
+   <toDecoration>ARROW</toDecoration>
+  </link>
+  <link id="id_50">
+   <renderingInformation xsi:type="route" rendered="true">
+    <path>M174.5 270 L151.5 270</path>
+    <perimeter>M141 265 L141 275 L151 275 L151 272.5 L177 272.5 L177 267.5 L151 267.5 L151 265 Z</perimeter>
+    <fromDecoration>
+     <name>NONE</name>
+     <d>RIGHT</d>
+     <position x="174.5" y="270.0"></position>
+    </fromDecoration>
+    <toDecoration>
+     <name>ARROW</name>
+     <d>LEFT</d>
+     <position x="141.5" y="270.0"></position>
+    </toDecoration>
+    <contradicting>false</contradicting>
+   </renderingInformation>
+   <from xsi:type="glyph" reference="id_46"></from>
+   <to xsi:type="glyph" reference="id_48"></to>
+   <toDecoration>ARROW</toDecoration>
+  </link>
+  <link id="id_49">
+   <renderingInformation xsi:type="route" rendered="true">
+    <path>M305.5 270 L509.5 270</path>
+    <perimeter>M509 265 L509 267.5 L303 267.5 L303 272.5 L509 272.5 L509 275 L519 275 L519 265 Z</perimeter>
+    <fromDecoration>
+     <name>NONE</name>
+     <d>LEFT</d>
+     <position x="305.5" y="270.0"></position>
+    </fromDecoration>
+    <toDecoration>
+     <name>ARROW</name>
+     <d>RIGHT</d>
+     <position x="519.5" y="270.0"></position>
+    </toDecoration>
+    <contradicting>false</contradicting>
+   </renderingInformation>
+   <from xsi:type="glyph" reference="id_46"></from>
+   <to xsi:type="glyph" reference="id_47"></to>
+   <toDecoration>ARROW</toDecoration>
+  </link>
+ </allLinks>
+</diagram>

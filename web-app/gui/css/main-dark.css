@@ -1,0 +1,512 @@
+@CHARSET "UTF-8";
+
+.toolbar {
+	display: inline-block;
+}
+
+.logo {
+	position: absolute;
+	right: 10px;
+	border: 0;
+}
+
+.header-bar {
+	position: fixed;
+	top: 0;
+	left: 0;	
+	overflow-x: auto;
+	width: 100%;
+	overflow: hidden;
+	height: 28px;
+	z-index: 10;
+	min-width: 728px;
+}
+
+.row1 {
+	padding-bottom: 0px;
+	height: 28px;	
+}
+
+#holder {
+	position: absolute;
+	left: 0;
+	top: 28px;
+	z-index: 0;
+}
+
+#draglayer {
+	position: absolute;
+	left: 0;
+	top: 28px;
+	z-index: -10;	
+}
+
+
+#loading {
+	position: absolute;
+	left: 0;
+	top: 0px;
+	width: 100%;
+	height: 100%;	
+	z-index: 20;	
+	background-color: white;
+	background: #999; /* for non-css3 browsers */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cccccc', endColorstr='#aaaaaa'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#ccc), to(#aaa)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #ccc,  #aaa); /* for firefox 3.6+ */ 
+}
+
+#loading .centered {
+	width: 400px;
+	height: 150px;
+	margin: auto;
+	v-align: middle;	
+}
+
+#loading .centered2 {
+	width: 66px;
+	height: 66px;
+	margin: auto;
+	v-align: middle;	
+}
+
+#palette-frame {
+	position: fixed;
+	top: 35px;
+	left: 20px;
+}
+
+#palette {
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+#palette-frame.ipad-menu>header>h3  {
+	text-align: left;
+}
+
+#img-holder {
+	position: relative;
+	margin-top: 28px;	
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+body {
+	/* Putting the gotham book here ensures that the fonts load up before anything else happens */
+	font-family: Gotham-Book, "sans serif";
+	font-size: 10px;
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+}
+
+
+.dialog.info {
+	font-size: 16px;
+}
+
+.dialog {
+	font-family: Gotham-Book, "sans serif";	
+}
+
+.dialog label {
+	display: block;	
+}
+
+.toolbar label {
+	display: inline-block;	
+}
+
+.dialog input {
+	display: inline-block;
+}
+
+*.loading {
+	cursor:wait !important;
+}
+
+input.text {
+	margin-bottom: 12px;
+	width: 95%;
+	padding: .4em;
+}
+
+fieldset {
+	margin-top: 12px;
+}
+
+
+.contents-list .ui-selecting {
+	background: #FECA40;
+}
+
+.contents-list .ui-selected {
+	background: #F39814;
+	color: white;
+}
+
+.contents-list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	border: 1px solid black;
+	background-color: white;
+	height: 250px;
+	max-height: 250px;
+	overflow: auto;
+}
+
+.contents-list  li {
+	margin: 3px;
+	padding: 0.4em;
+	border: 1px solid black;
+}
+
+.contents-list li textarea {
+	width: 370px;
+	margin: 0 10px 0 6px;	
+	vertical-align: top;
+	height: 22px;
+}
+
+.contents-list li input.text {
+	width: 500px;
+	margin: 0 10px 0 6px;	
+	vertical-align: top;
+}
+
+.contents-list li .symbols-list {
+	width: 120px;	
+	display: inline-block;
+	vertical-align: top;
+	margin: 0;
+}
+
+.contents-list li span {
+	display: inline-block;	
+}
+
+.contents-list li form button {
+	margin-top: 10px;
+	margin-left: 0px;
+}
+
+.contents-list li .handle {
+	margin-top: 3px; 		
+}
+
+fieldset .field { margin: 0.5em; padding: 0.5em; }
+ fieldset .field label { margin-right: 0.4em; }
+ 
+ html {
+ 	-moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+    -webkit-font-smoothing: antialiased;
+ }
+ 
+#loading1 {
+ 	width: 22px;
+ 	height: 22px;
+ 	display: inline;
+ 	margin: 0;
+ 	padding: 0;
+ 	vertical-align: middle;
+ 	visibility: hidden;
+ 
+ }
+ 
+#publish {
+	text-align: right;	
+}
+
+/* Dropdown control */
+.selectBox-dropdown {
+	width: 150px; /* width = (desired width) - padding-right */
+	padding-right: 40px;
+	position: relative;
+	line-height: 1.3;
+	text-decoration: none;
+	color: #1C94C4;
+	outline: none;
+	border: 1px solid #CCC;
+	background: #F6F6F6 url(ui-lightness/images/ui-bg_glass_100_f6f6f6_1x400.png) 50% 50% repeat-x;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	display: inline-block;
+	cursor: default;
+	font-family: Trebuchet MS, Tahoma, Verdana, Arial, sans-serif;
+	font-size: 1.1em;
+	vertical-align: top; /* firefox */
+	vertical-align: initial;
+	height: 24px;
+}
+
+.selectBox-dropdown .selectBox-label {
+	color: #1C94C4;	
+	padding: 4px 6px 5px 5px !important;
+	height: 15px;
+}
+
+.selectBox-dropdown:focus,
+.selectBox-dropdown:focus .selectBox-arrow {
+	border-color: #666;
+}
+
+.selectBox-dropdown.selectBox-menuShowing {
+	-moz-border-radius-bottomleft: 0;
+	-moz-border-radius-bottomright: 0;
+	-webkit-border-bottom-left-radius: 0;
+	-webkit-border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.selectBox-dropdown .selectBox-label {
+	width: 100%;
+	padding: .4em .3em;
+	display: inline-block;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.selectBox-dropdown .selectBox-arrow {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 23px;
+	height: 100%;
+	background: url(../images/selectbox-arrow.gif) 50% center no-repeat;
+	border-left: solid 1px #BBB;
+}
+
+
+/* Dropdown menu */
+.selectBox-dropdown-menu {
+	position: absolute;
+	z-index: 99999;
+	max-height: 200px;
+	border: solid 1px #BBB; /* should be the same border width as .selectBox-dropdown */
+	background: #FFF;
+	-moz-box-shadow: 0 2px 6px rgba(0, 0, 0, .2);
+	-webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, .2);
+	box-shadow: 0 2px 6px rgba(0, 0, 0, .2);
+	overflow: auto;
+}
+
+
+/* Inline control */
+.selectBox-inline {
+	width: 250px;
+	outline: none;
+	border: solid 1px #BBB;
+	background: #FFF;
+	display: inline-block;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	overflow: auto;
+}
+
+.selectBox-inline:focus {
+	border-color: #666;
+}
+
+
+/* Options */
+.selectBox-options,
+.selectBox-options LI,
+.selectBox-options LI A {
+	list-style: none;
+	display: block;
+	cursor: default;
+	padding: 0;
+	margin: 0;
+}
+
+.selectBox-options LI A {
+	line-height: 1.5;
+	padding: 0 .5em;
+	white-space: nowrap;
+	overflow: hidden;
+	background: 6px center no-repeat;
+}
+
+.selectBox-options LI.selectBox-hover A {
+	background-color: #EEE;
+}
+
+.selectBox-options LI.selectBox-disabled A {
+	color: #888;
+	background-color: transparent;
+}
+
+.selectBox-options LI.selectBox-selected A {
+	background-color: #C8DEF4;
+}
+
+.selectBox-options .selectBox-optgroup {
+	color: #666;
+	background: #EEE;
+	font-weight: bold;
+	line-height: 1.5;
+	padding: 0 .3em;
+	white-space: nowrap;
+}
+
+
+/* Disabled state */
+.selectBox.selectBox-disabled {
+	color: #888 !important;
+}
+
+.selectBox-dropdown.selectBox-disabled .selectBox-arrow {
+	opacity: .5;
+	filter: alpha(opacity=50);
+	border-color: #666;
+}
+
+.selectBox-inline.selectBox-disabled {
+	color: #888 !important;
+}
+
+.selectBox-inline.selectBox-disabled .selectBox-options A {
+	background-color: transparent !important;
+}
+
+/* SOCIAL */
+#share-social li {
+	list-style: none;	
+	display: inline;
+	padding: 10px 5px 10px 39px;
+}
+
+#share-social {
+	padding: 0;	
+}
+
+li.twitter {
+	background: url(../images/twitter_32.png) 0 50% no-repeat;	
+}
+
+li.twitter a {
+	color: black;	
+}
+
+li.facebook {
+	background: url(../images/ico_facebook_gray.png) 0 50% no-repeat;		
+}
+
+li.facebook a {
+	color: black;	
+}
+
+/* SYMBOLS */
+
+.symbols-list {
+	min-height: 20px;
+	margin: 2px 0 12px 0;
+	list-style: none;
+	padding: 0 4px 0 4px;
+}
+.symbol { 
+	font-family: Trebuchet MS, Tahoma, Verdana, Arial, sans-serif !important;
+	font-size: 11px !important;
+	display: inline-block;
+	padding: .4em !important;
+	height: 12px !important; 
+	width: 12px !important;
+	margin: 0 !important;
+	font-weight: bold !important;
+	color: black;
+	text-align: center;
+	border: 0px !important;
+}
+
+#symbol-picker-list li {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	
+}
+
+.CIRCLE {
+	background: url(../images/shapes-01.png) center center no-repeat;	
+}
+
+.DIAMOND {
+	background: url(../images/shapes-03.png) center center no-repeat;	
+}
+
+.HEXAGON {
+	background: url(../images/shapes-02.png) center center no-repeat;	
+}
+
+.ui-sortable-helper {
+	border: 1px solid red;	
+}
+
+/* DIALOGS */
+
+label {
+	padding: 6px 2px 2px 2px;
+}
+
+.left-main {
+	width: 75%;	
+}
+
+.right-box {
+	float: right;	
+}
+
+textarea {
+	resize: vertical;	
+}
+
+#diagram-edit-symbols {
+	width: 100%;	
+}
+
+.ui-widget-content {
+	background: #EEE; /* url(../images/bmt.jpg); */
+	color: #000;
+}
+
+.ui-widget-content a {
+	color: black !important;	
+}
+
+#errors {
+	height: 200px;
+	width: 100%;
+	overflow: auto;
+	bottom: 0;
+	left: 0;
+	z-index: 656;
+	position: absolute;
+}
+
+#tool-tip{
+ position : absolute;
+ border : 1px solid gray;
+ background-color : #efefef;
+ padding : 3px;
+ z-index: 1000;
+ /* set this to create word wrap */
+ max-width: 200px;
+}
+
+#counts {
+	position: absolute;
+	top: 10px;
+	right: 40px;
+	width: 60px;
+	height: 20px;
+	font-size: 8px;	
+	z-index: 100;
+	color: white;
+}

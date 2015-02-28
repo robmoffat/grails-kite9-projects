@@ -1,0 +1,108 @@
+<diagram xmlns="http://www.kite9.org/schema/adl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="The Diagram">
+ <renderingInformation xsi:type="route">
+  <positions>
+   <d x="105.0" y="34.0"/>
+   <d x="105.0" y="46.0"/>
+   <d x="0.0" y="46.0"/>
+   <d x="0.0" y="0.0"/>
+   <d x="105.0" y="0.0"/>
+   <d x="105.0" y="23.0"/>
+   <d x="105.0" y="23.0"/>
+   <d x="105.0" y="34.0"/>
+  </positions>
+  <hops>
+   <boolean>false</boolean>
+   <boolean>false</boolean>
+   <boolean>false</boolean>
+   <boolean>false</boolean>
+   <boolean>false</boolean>
+   <boolean>false</boolean>
+   <boolean>false</boolean>
+   <boolean>false</boolean>
+  </hops>
+ </renderingInformation>
+ <arrow id="id_23" label="New Arrow Body">
+  <renderingInformation xsi:type="rectangle">
+   <position x="2.0" y="22.0"/>
+   <size xsi:type="costed" x="12.0" y="2.0">
+    <cost>0</cost>
+   </size>
+  </renderingInformation>
+ </arrow>
+ <context id="id_24" bordered="true">
+  <renderingInformation xsi:type="route">
+   <positions>
+    <d x="16.0" y="33.0"/>
+    <d x="16.0" y="23.0"/>
+    <d x="16.0" y="23.0"/>
+    <d x="16.0" y="2.0"/>
+    <d x="26.0" y="2.0"/>
+    <d x="26.0" y="44.0"/>
+    <d x="16.0" y="44.0"/>
+    <d x="16.0" y="33.0"/>
+   </positions>
+   <hops>
+    <boolean>false</boolean>
+    <boolean>false</boolean>
+    <boolean>false</boolean>
+    <boolean>false</boolean>
+    <boolean>false</boolean>
+    <boolean>false</boolean>
+    <boolean>false</boolean>
+    <boolean>false</boolean>
+   </hops>
+  </renderingInforma...ecoration>
+   <toDecoration>ARROW</toDecoration>
+  </link>
+  <link id="10" style="NORMAL">
+   <from xsi:type="arrow" reference="id_3"/>
+   <to xsi:type="glyph" reference="auto:0"/>
+   <renderingInformation xsi:type="route">
+    <positions>
+     <d x="75.0" y="15.0"/>
+     <d x="73.0" y="15.0"/>
+    </positions>
+    <hops>
+     <boolean>false</boolean>
+     <boolean>false</boolean>
+    </hops>
+   </renderingInformation>
+   <fromDecoration>ARROW</fromDecoration>
+   <toDecoration>ARROW</toDecoration>
+  </link>
+  <link id="11" style="NORMAL">
+   <from xsi:type="glyph" reference="id_6"/>
+   <to xsi:type="arrow" reference="id_3"/>
+   <renderingInformation xsi:type="route">
+    <positions>
+     <d x="95.0" y="23.0"/>
+     <d x="95.0" y="15.0"/>
+     <d x="87.0" y="15.0"/>
+    </positions>
+    <hops>
+     <boolean>false</boolean>
+     <boolean>false</boolean>
+     <boolean>false</boolean>
+    </hops>
+   </renderingInformation>
+   <fromDecoration>ARROW</fromDecoration>
+   <toDecoration>ARROW</toDecoration>
+  </link>
+  <link id="12" style="NORMAL">
+   <from xsi:type="glyph" reference="id_6"/>
+   <to xsi:type="arrow" reference="id_5"/>
+   <renderingInformation xsi:type="route">
+    <positions>
+     <d x="95.0" y="27.0"/>
+     <d x="95.0" y="29.0"/>
+    </positions>
+    <hops>
+     <boolean>false</boolean>
+     <boolean>false</boolean>
+    </hops>
+   </renderingInformation>
+   <fromDecoration>ARROW</fromDecoration>
+   <toDecoration>ARROW</toDecoration>
+  </link>
+ </allLinks>
+</diagram>

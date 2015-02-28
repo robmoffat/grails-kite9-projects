@@ -30,18 +30,12 @@ class BootStrap {
 	        def member2 = new Member(email: "robmoffat@mac.com", project: testProject2, projectRoleString: "A")
       		member2.save(flush: true)
 		}
-      
-
-        
-        
 
         def diagram1 = new Diagram(title: "Test Diagram 1", description: "Created by Bootstrap", project: testProject, latestHash: 'abc352')
         diagram1.save flush: true
 
         def diagram2 = new Diagram(title: "Test Diagram 2", description: "Created by Bootstrap", project: testProject, latestHash: 'abc32')
         diagram2.save flush: true
-
-
 
         assert User.count() == 1
         assert Role.count() == 2

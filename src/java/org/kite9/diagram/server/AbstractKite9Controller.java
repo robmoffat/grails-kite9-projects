@@ -31,6 +31,7 @@ import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import javax.annotation.Resource;
 import javax.mail.Message;
 import javax.mail.Message.RecipientType;
 import javax.mail.Session;
@@ -67,7 +68,6 @@ import org.kite9.framework.common.RepositoryHelp;
 import org.kite9.framework.logging.Kite9Log;
 import org.kite9.framework.logging.LogicException;
 import org.kite9.framework.serialization.XMLHelper;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.jdbc.core.JdbcTemplate;
@@ -130,7 +130,7 @@ public abstract class AbstractKite9Controller implements ServletContextAware {
 		}
 	}
 
-	@Autowired
+	@Resource(name="dataSource")
 	public void setDataSource(DataSource ds) {
 		this.template = new JdbcTemplate(ds);
 	}
@@ -401,9 +401,13 @@ public abstract class AbstractKite9Controller implements ServletContextAware {
 		if (isLocal()) {
 			if (ctx != null) {
 				String out = new File(ctx.getRealPath("/")).getParent();
-				return out + "/ROOT/kite9-repo";
+				String dir= out + "/ROOT/kite9-repo";
+				new File(dir).mkdirs();
+				return dir;
 			} else {
-				return "target/kite9-repo";
+				String dir= "target/kite9-repo";
+				new File(dir).mkdirs();
+				return dir;
 			}
 		} else {
 			return CACHE_ROOT;

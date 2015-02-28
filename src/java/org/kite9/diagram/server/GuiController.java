@@ -45,7 +45,7 @@ import com.thoughtworks.xstream.XStream;
  *
  */
 @Controller
-public class Kite9DesignerController extends AbstractKite9DiagramManagementController {
+public class GuiController extends AbstractKite9DiagramManagementController {
 	
 	private SecureRandom random = new SecureRandom();
 
@@ -185,7 +185,7 @@ public class Kite9DesignerController extends AbstractKite9DiagramManagementContr
 	private static final String DEFAULT_DESIGNER_STYLESHEET = "designer2012";
 	XStream outputSerializer;
 	
-	public Kite9DesignerController() {
+	public GuiController() {
 		super();
 		this.outputSerializer = new XMLHelper().buildXStream();
 		this.outputSerializer.registerConverter(new SVGPathConverter());
@@ -195,7 +195,7 @@ public class Kite9DesignerController extends AbstractKite9DiagramManagementContr
 		return getCacheFile(hash, "sizes-"+getStyle(styleID)+".xml");
 	}
 	
-	@RequestMapping("/sizes.xml")
+	@RequestMapping("gui.sizes.xml.dispatch")
 	public void generateDiagram(
 			final @RequestParam(value = "xml", required = false) String sentXml, 
 			@RequestParam(value = "hash", required = false) String hash, 
@@ -230,8 +230,8 @@ public class Kite9DesignerController extends AbstractKite9DiagramManagementContr
 	/**
 	 * This initialises the GUI from scratch.
 	 */
-	@RequestMapping("gui.html")
-	public ModelAndView editXML(@RequestParam(required=false, value="hash") String hash, @RequestParam(required=false, value="stylesheet") String style) {
+	@RequestMapping("gui.editor.dispatch")
+	public ModelAndView guiEditor(@RequestParam(required=false, value="hash") String hash, @RequestParam(required=false, value="stylesheet") String style) {
 		Map<String, String> map = new HashMap<String, String>();
 		map.put("hash", hash);
 		style = style == null ? DEFAULT_DESIGNER_STYLESHEET : style;
@@ -242,7 +242,7 @@ public class Kite9DesignerController extends AbstractKite9DiagramManagementContr
 		if (hash!=null) {
 			map.put("xmlUrl", "view/"+hash+"/"+style+".xml");
 		} else {
-			map.put("xmlUrl", "gui/init.sxml");
+			map.put("xmlUrl", "init.sxml");
 		}
 		ModelAndView out = new ModelAndView("/jsp/gui", map);
 		return out;
